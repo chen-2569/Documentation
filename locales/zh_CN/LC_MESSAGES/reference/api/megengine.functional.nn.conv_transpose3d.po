@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-08 20:45+0800\n"
-"PO-Revision-Date: 2022-04-01 06:24\n"
+"POT-Creation-Date: 2022-12-24 23:51+0800\n"
+"PO-Revision-Date: 2023-04-10 10:43\n"
 "Last-Translator: \n"
 "Language: zh_CN\n"
 "Language-Team: Chinese Simplified\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"X-Crowdin-Project: csx-test\n"
+"X-Crowdin-Project-ID: 579979\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.functional.nn.conv_transpose3d.po\n"
-"X-Crowdin-File-ID: 6948\n"
+"X-Crowdin-File: /main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.functional.nn.conv_transpose3d.po\n"
+"X-Crowdin-File-ID: 3295\n"
 
 #: ../../source/reference/api/megengine.functional.nn.conv_transpose3d.rst:2
 msgid "megengine.functional.nn.conv\\_transpose3d"
-msgstr "megengine.functional.nn.conv\\_transpose3d"
+msgstr ""
 
 #: megengine.functional.nn.conv_transpose3d:1 of
 msgid "3D transposed convolution operation. Only support the case that groups = 1 and conv_mode = \"cross_correlation\"."
@@ -32,7 +32,7 @@ msgstr "更多信息参见 :class:`~.ConvTranspose3d` for more information."
 
 #: megengine.functional.nn.conv_transpose3d of
 msgid "参数"
-msgstr "参数"
+msgstr ""
 
 #: megengine.functional.nn.conv_transpose3d:7 of
 msgid "feature map of the convolution operation."
@@ -55,26 +55,30 @@ msgid "size of the paddings added to the input on all sides of its spatial dimen
 msgstr "输入数据空域维度每侧的填充（padding）大小。仅支持填充0值。默认：0"
 
 #: megengine.functional.nn.conv_transpose3d:19 of
+msgid "size of paddings appended to output. Default: 0"
+msgstr ""
+
+#: megengine.functional.nn.conv_transpose3d:21 of
 msgid "dilation of the 3D convolution operation. Default: 1"
 msgstr "三维卷积运算的扩张值(dilation)。 默认： 1"
 
-#: megengine.functional.nn.conv_transpose3d:21 of
+#: megengine.functional.nn.conv_transpose3d:23 of
 msgid "number of groups into which the input and output channels are divided, so as to perform a ``grouped convolution``. When ``groups`` is not 1, ``in_channels`` and ``out_channels`` must be divisible by groups, and the shape of weight should be ``(groups, in_channels // groups, out_channels // groups, depth, height, width)``. Default: 1"
 msgstr "在进行“分组卷积”时，对输入输出通道的分组数量。当 groups 不是 1 时，in_channels 和 out_channels 必须可被 groups 整除，卷积核权重的形状将会是 ``(groups, in_channels // groups, out_channels // groups, depth, height, width)`` 。默认值：1"
 
 #: megengine.functional.nn.conv_transpose3d of
 msgid "返回类型"
-msgstr "返回类型"
+msgstr ""
 
-#: megengine.functional.nn.conv_transpose3d:27 of
+#: megengine.functional.nn.conv_transpose3d:29 of
 msgid ":py:class:`~megengine.tensor.Tensor`"
-msgstr ":py:class:`~megengine.tensor.Tensor`"
+msgstr ""
 
 #: megengine.functional.nn.conv_transpose3d of
 msgid "返回"
-msgstr "返回"
+msgstr ""
 
-#: megengine.functional.nn.conv_transpose3d:28 of
+#: megengine.functional.nn.conv_transpose3d:30 of
 msgid "output tensor."
 msgstr "输出张量。"
 
