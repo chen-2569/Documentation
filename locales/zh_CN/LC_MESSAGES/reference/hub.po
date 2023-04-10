@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-01 21:02+0800\n"
-"PO-Revision-Date: 2022-09-26 10:03\n"
+"PO-Revision-Date: 2023-04-10 10:51\n"
 "Last-Translator: \n"
 "Language: zh_CN\n"
 "Language-Team: Chinese Simplified\n"
@@ -12,23 +12,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"X-Crowdin-Project: csx-test\n"
+"X-Crowdin-Project-ID: 579979\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/hub.po\n"
-"X-Crowdin-File-ID: 2790\n"
+"X-Crowdin-File: /main/locales/zh_CN/LC_MESSAGES/reference/hub.po\n"
+"X-Crowdin-File-ID: 3883\n"
 
 #: ../../source/reference/hub.rst:6
 msgid "megengine.hub"
-msgstr "megengine.hub"
+msgstr ""
 
 #: ../../source/reference/hub.rst:9
 msgid "查询/使用预训练模型"
-msgstr "查询/使用预训练模型"
+msgstr ""
 
 #: ../../source/reference/hub.rst:20:<autosummary>:1
 msgid ":py:obj:`list <megengine.hub.list>`"
-msgstr ":py:obj:`list <megengine.hub.list>`"
+msgstr ""
 
 #: ../../source/reference/hub.rst:20:<autosummary>:1
 msgid "Lists all entrypoints available in repo hubconf."
@@ -36,7 +36,7 @@ msgstr "列出仓库 hubconf 中指定的所有可用的入口点。"
 
 #: ../../source/reference/hub.rst:20:<autosummary>:1
 msgid ":py:obj:`load <megengine.hub.load>`"
-msgstr ":py:obj:`load <megengine.hub.load>`"
+msgstr ""
 
 #: ../../source/reference/hub.rst:20:<autosummary>:1
 msgid "Loads model from github or gitlab repo, with pretrained weights."
@@ -44,7 +44,7 @@ msgstr "从GitHub或GitLab中加载具有预训练权重的模型。"
 
 #: ../../source/reference/hub.rst:20:<autosummary>:1
 msgid ":py:obj:`help <megengine.hub.help>`"
-msgstr ":py:obj:`help <megengine.hub.help>`"
+msgstr ""
 
 #: ../../source/reference/hub.rst:20:<autosummary>:1
 msgid "This function returns docstring of entrypoint ``entry`` by following steps:"
@@ -52,7 +52,7 @@ msgstr "通过以下步骤，该函数返回入口点 ``entry`` 的docstring ：
 
 #: ../../source/reference/hub.rst:20:<autosummary>:1
 msgid ":py:obj:`load_serialized_obj_from_url <megengine.hub.load_serialized_obj_from_url>`"
-msgstr ":py:obj:`load_serialized_obj_from_url <megengine.hub.load_serialized_obj_from_url>`"
+msgstr ""
 
 #: ../../source/reference/hub.rst:20:<autosummary>:1
 msgid "Loads MegEngine serialized object from the given URL."
@@ -60,7 +60,7 @@ msgstr "加载给定URL中的MegEngine序列化对象。"
 
 #: ../../source/reference/hub.rst:20:<autosummary>:1
 msgid ":py:obj:`pretrained <megengine.hub.pretrained>`"
-msgstr ":py:obj:`pretrained <megengine.hub.pretrained>`"
+msgstr ""
 
 #: ../../source/reference/hub.rst:20:<autosummary>:1
 msgid "Decorator which helps to download pretrained weights from the given url."
@@ -68,7 +68,7 @@ msgstr "装饰器，用来标识预训练权重的 url，以便于载入时自�
 
 #: ../../source/reference/hub.rst:20:<autosummary>:1
 msgid ":py:obj:`import_module <megengine.hub.import_module>`"
-msgstr ":py:obj:`import_module <megengine.hub.import_module>`"
+msgstr ""
 
 #: ../../source/reference/hub.rst:20:<autosummary>:1
 msgid "Imports hubmodule like python import."
