@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 21:02+0800\n"
-"PO-Revision-Date: 2022-09-02 12:02\n"
+"POT-Creation-Date: 2022-12-24 23:51+0800\n"
+"PO-Revision-Date: 2023-04-10 10:52\n"
 "Last-Translator: \n"
 "Language: zh_CN\n"
 "Language-Team: Chinese Simplified\n"
@@ -11,12 +11,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Crowdin-Project: csx-test\n"
+"X-Crowdin-Project-ID: 579979\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/en/LC_MESSAGES/getting-started/beginner/megengine-basics.po\n"
-"X-Crowdin-File-ID: 8377\n"
+"X-Crowdin-File: /main/locales/en/LC_MESSAGES/getting-started/beginner/megengine-basics.po\n"
+"X-Crowdin-File-ID: 3945\n"
 
 #: ../../source/getting-started/beginner/megengine-basics.rst:5
 msgid "MegEngine 基础概念"
@@ -384,7 +384,7 @@ msgstr ""
 
 #: ../../source/getting-started/beginner/megengine-basics.rst:294
 msgid "优化器（Optimizer）"
-msgstr "优化器（Optimizer）"
+msgstr ""
 
 #: ../../source/getting-started/beginner/megengine-basics.rst:296
 msgid "MegEngine 的 :mod:`~.optimizer` 模块提供了基于各种常见优化策略的优化器，如 :class:`~.SGD` 和 :class:`~.Adam` 等。 它们的基类是 :class:`~.Optimizer`，其中 :class:`~.SGD` 对应随机梯度下降算法，也是本教程中将会用到的优化器。"
@@ -544,11 +544,11 @@ msgstr ""
 
 #: ../../source/getting-started/beginner/megengine-basics.rst:477
 msgid "NumPy"
-msgstr "NumPy"
+msgstr ""
 
 #: ../../source/getting-started/beginner/megengine-basics.rst:518
 msgid "MegEngine"
-msgstr "MegEngine"
+msgstr ""
 
 #: ../../source/getting-started/beginner/megengine-basics.rst:555
 msgid "二者应该会得到一样的输出。"
@@ -678,10 +678,6 @@ msgstr ""
 msgid "参考文献"
 msgstr ""
 
-#: ../../source/getting-started/beginner/megengine-basics.rst:710
-msgid "Charles R. Harris, K. Jarrod Millman, Stéfan J. van der Walt, Ralf Gommers, Pauli Virtanen, David Cournapeau, Eric Wieser, Julian Taylor, Sebastian Berg, Nathaniel J. Smith, Robert Kern, Matti Picus, Stephan Hoyer, Marten H. van Kerkwijk, Matthew Brett, Allan Haldane, Jaime Fernández del Río, Mark Wiebe, Pearu Peterson, Pierre Gérard-Marchant, Kevin Sheppard, Tyler Reddy, Warren Weckesser, Hameer Abbasi, Christoph Gohlke, and Travis E. Oliphant. Array programming with NumPy. Nature, 585(7825):357–362, September 2020. URL: https://doi.org/10.1038/s41586-020-2649-2, doi:10.1038/s41586-020-2649-2.Thomas M. Mitchell. Machine Learning. McGraw-Hill, Inc., USA, 1 edition, 1997. ISBN 0070428077.Christopher M. Bishop. Pattern Recognition and Machine Learning (Information Science and Statistics). Springer-Verlag, Berlin, Heidelberg, 2006. ISBN 0387310738."
-msgstr ""
-
 #~ msgid "那么我们要如何去评估一个模型预测性能的好坏呢？ 核心原则是： **犯错越少，也就越好。**"
 #~ msgstr ""
 
@@ -732,26 +728,4 @@ msgstr ""
 #~ " Science and Statistics). Springer-Verlag,"
 #~ " Berlin, Heidelberg, 2006. ISBN 0387310738."
 #~ msgstr ""
-#~ "Charles R. Harris, K. Jarrod Millman,"
-#~ " Stéfan J. van der Walt, Ralf "
-#~ "Gommers, Pauli Virtanen, David Cournapeau, "
-#~ "Eric Wieser, Julian Taylor, Sebastian "
-#~ "Berg, Nathaniel J. Smith, Robert Kern,"
-#~ " Matti Picus, Stephan Hoyer, Marten "
-#~ "H. van Kerkwijk, Matthew Brett, Allan"
-#~ " Haldane, Jaime Fernández del Río, "
-#~ "Mark Wiebe, Pearu Peterson, Pierre "
-#~ "Gérard-Marchant, Kevin Sheppard, Tyler "
-#~ "Reddy, Warren Weckesser, Hameer Abbasi, "
-#~ "Christoph Gohlke, and Travis E. "
-#~ "Oliphant. Array programming with NumPy. "
-#~ "Nature, 585(7825):357–362, September 2020. "
-#~ "URL: https://doi.org/10.1038/s41586-020-2649-2, "
-#~ "doi:10.1038/s41586-020-2649-2.Thomas M. Mitchell. "
-#~ "Machine Learning. McGraw-Hill, Inc., "
-#~ "USA, 1 edition, 1997. ISBN 0070428077."
-#~ " Christopher M. Bishop. Pattern Recognition"
-#~ " and Machine Learning (Information Science"
-#~ " and Statistics). Springer-Verlag, Berlin,"
-#~ " Heidelberg, 2006 . ISBN 0387310738."
 
