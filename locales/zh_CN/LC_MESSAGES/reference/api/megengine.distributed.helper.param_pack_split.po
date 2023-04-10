@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: csx-test\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-24 23:51+0800\n"
+"PO-Revision-Date: 2023-04-10 10:40\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: csx-test\n"
+"X-Crowdin-Project-ID: 579979\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.distributed.helper.param_pack_split.po\n"
+"X-Crowdin-File-ID: 3087\n"
+"Language: zh_CN\n"
+
+#: ../../source/reference/api/megengine.distributed.helper.param_pack_split.rst:2
+msgid "megengine.distributed.helper.param\\_pack\\_split"
+msgstr ""
+
+#: megengine.distributed.helper.param_pack_split:1 of
+msgid "Returns split tensor to list of tensors as offsets and shapes described, only used for ``parampack``."
+msgstr ""
+
+#: megengine.distributed.helper.param_pack_split of
+msgid "参数"
+msgstr ""
+
+#: megengine.distributed.helper.param_pack_split:5 of
+msgid "input tensor."
+msgstr ""
+
+#: megengine.distributed.helper.param_pack_split:7 of
+msgid "offsets of outputs, length of ``2 * n``, where ``n`` is the number of tensor you want to split, format ``[begin0, end0, begin1, end1]``."
+msgstr ""
+
+#: megengine.distributed.helper.param_pack_split:11 of
+msgid "tensor shapes of outputs."
+msgstr ""
+
+#: megengine.distributed.helper.param_pack_split of
+msgid "返回"
+msgstr ""
+
+#: megengine.distributed.helper.param_pack_split:13 of
+msgid "splitted tensors."
+msgstr ""
+
+#: megengine.distributed.helper.param_pack_split:16 of
+msgid "实际案例"
+msgstr ""
+
