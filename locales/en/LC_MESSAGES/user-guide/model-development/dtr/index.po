@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 21:02+0800\n"
-"PO-Revision-Date: 2022-09-02 12:10\n"
+"POT-Creation-Date: 2022-12-24 23:51+0800\n"
+"PO-Revision-Date: 2023-04-10 10:54\n"
 "Last-Translator: \n"
 "Language: en_US\n"
 "Language-Team: English\n"
@@ -11,12 +11,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Crowdin-Project: csx-test\n"
+"X-Crowdin-Project-ID: 579979\n"
 "X-Crowdin-Language: en\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/en/LC_MESSAGES/user-guide/model-development/dtr/index.po\n"
-"X-Crowdin-File-ID: 8179\n"
+"X-Crowdin-File: /main/locales/en/LC_MESSAGES/user-guide/model-development/dtr/index.po\n"
+"X-Crowdin-File-ID: 4063\n"
 
 #: ../../source/user-guide/model-development/dtr/index.rst:5
 msgid "使用 DTR 进行显存优化"
@@ -25,10 +25,6 @@ msgstr "Memory optimization using DTR"
 #: ../../source/user-guide/model-development/dtr/index.rst:7
 msgid "MegEngine 通过引入 `DTR <https://arxiv.org/pdf/2006.09616.pdf>`_ :footcite:p:`kirisame2021dynamic` 技术来进行动态图下的显存优化，同时也支持在静态图下开启。"
 msgstr "MegEngine optimizes video memory in dynamic graphs by introducing `DTR <https://arxiv.org/pdf/2006.09616.pdf>`_ :footcite:p:`kirisame2021dynamic` technology, and also supports opening in static graphs."
-
-#: ../../source/user-guide/model-development/dtr/index.rst:10
-msgid "Marisa Kirisame, Steven Lyubomirsky, Altan Haan, Jennifer Brennan, Mike He, Jared Roesch, Tianqi Chen, and Zachary Tatlock. Dynamic tensor rematerialization. In International Conference on Learning Representations. 2021. URL: https://openreview.net/forum?id=Vfs_2RnOD0H."
-msgstr ""
 
 #: ../../source/user-guide/model-development/dtr/index.rst:12
 msgid "DTR 使用与配置方式"
@@ -395,11 +391,4 @@ msgstr "Users can use :class:`~.jit.DTRConfig` to set the parameter `` :class:of
 #~ "Representations. 2021. URL: "
 #~ "https://openreview.net/forum?id=Vfs_2RnOD0H."
 #~ msgstr ""
-#~ "Marisa Kirisame, Steven Lyubomirsky, Altan "
-#~ "Haan, Jennifer Brennan, Mike He, Jared"
-#~ " Roesch, Tianqi Chen, and Zachary "
-#~ "Tatlock. Dynamic tensor rematerialization. In"
-#~ " International Conference on Learning "
-#~ "Representations. 2021. URL: "
-#~ "https://openreview.net/forum? id=Vfs_2RnOD0H."
 
