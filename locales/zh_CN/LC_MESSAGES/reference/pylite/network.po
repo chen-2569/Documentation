@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 21:02+0800\n"
-"PO-Revision-Date: 2022-09-02 12:02\n"
+"POT-Creation-Date: 2022-12-24 23:51+0800\n"
+"PO-Revision-Date: 2023-04-10 10:54\n"
 "Last-Translator: \n"
 "Language: zh_CN\n"
 "Language-Team: Chinese Simplified\n"
@@ -11,12 +11,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Crowdin-Project: csx-test\n"
+"X-Crowdin-Project-ID: 579979\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/pylite/network.po\n"
-"X-Crowdin-File-ID: 8440\n"
+"X-Crowdin-File: /main/locales/zh_CN/LC_MESSAGES/reference/pylite/network.po\n"
+"X-Crowdin-File-ID: 4115\n"
 
 #: ../../source/reference/pylite/network.rst:6
 msgid "megenginelite.network"
@@ -64,11 +64,11 @@ msgid "do not re-profile to select best implement algo when input shape changes 
 msgstr ""
 
 #: megenginelite.network.LiteOptions:30 of
-msgid "Execute supported operators with JIT (support MLIR, NVRTC). Can only be used on Nvidia GPUs and X86 CPU, this value indicates JIT level:  level 1: for JIT execute with basic elemwise operator  level 2: for JIT execute elemwise and reduce operators"
+msgid "Execute supported operators with JIT, please check with MGB_JIT_BACKEND for more details, this value indicates JIT level:  level 1: for JIT execute with basic elemwise operator  level 2: for JIT execute elemwise and reduce operators"
 msgstr ""
 
 #: megenginelite.network.LiteOptions:30 of
-msgid "Execute supported operators with JIT (support MLIR, NVRTC). Can only be used on Nvidia GPUs and X86 CPU, this value indicates JIT level:"
+msgid "Execute supported operators with JIT, please check with MGB_JIT_BACKEND for more details, this value indicates JIT level:"
 msgstr ""
 
 #: megenginelite.network.LiteOptions:33 of
@@ -147,16 +147,17 @@ msgstr ""
 msgid "mask 0b100: always async"
 msgstr ""
 
-#: megenginelite.network.LiteConfig:23 megenginelite.network.LiteIO:29
+#: megenginelite.network.LiteConfig:25 megenginelite.network.LiteIO:29
 #: megenginelite.network.LiteNetwork:4 megenginelite.network.LiteNetworkIO:10
 #: megenginelite.network.LiteOptions:70 of
 msgid "实际案例"
-msgstr "实际案例"
+msgstr ""
 
 #: ../../docstring megenginelite.network.LiteConfig.auto_optimize_inference:1
 #: megenginelite.network.LiteConfig.backend:1
 #: megenginelite.network.LiteConfig.device_id:1
 #: megenginelite.network.LiteConfig.device_type:1
+#: megenginelite.network.LiteConfig.discrete_input_name:1
 #: megenginelite.network.LiteConfig.has_compression:1
 #: megenginelite.network.LiteConfig.options:1
 #: megenginelite.network.LiteIO.config_layout:1
@@ -215,6 +216,10 @@ msgstr ""
 
 #: megenginelite.network.LiteConfig:19 of
 msgid "lite will detect the device information add set the options heuristically"
+msgstr ""
+
+#: megenginelite.network.LiteConfig:21 of
+msgid "configure which input is composed of discrete multiple tensors"
 msgstr ""
 
 #: megenginelite.network.LiteIO:1 of
@@ -280,6 +285,7 @@ msgstr ""
 #: megenginelite.network.LiteNetwork.async_with_callback
 #: megenginelite.network.LiteNetwork.dump_layout_transform_model
 #: megenginelite.network.LiteNetwork.enable_profile_performance
+#: megenginelite.network.LiteNetwork.get_discrete_tensor
 #: megenginelite.network.LiteNetwork.get_input_name
 #: megenginelite.network.LiteNetwork.get_io_tensor
 #: megenginelite.network.LiteNetwork.get_output_name
@@ -293,7 +299,7 @@ msgstr ""
 #: megenginelite.network.LiteNetwork.share_runtime_memroy
 #: megenginelite.network.LiteNetwork.share_weights_with of
 msgid "参数"
-msgstr "参数"
+msgstr ""
 
 #: megenginelite.network.LiteNetwork.async_with_callback:4
 #: megenginelite.network.LiteNetwork.set_finish_callback:5
@@ -308,6 +314,7 @@ msgstr ""
 #: megenginelite.network.LiteNetwork.device_id
 #: megenginelite.network.LiteNetwork.get_all_input_name
 #: megenginelite.network.LiteNetwork.get_all_output_name
+#: megenginelite.network.LiteNetwork.get_discrete_tensor
 #: megenginelite.network.LiteNetwork.get_input_name
 #: megenginelite.network.LiteNetwork.get_io_tensor
 #: megenginelite.network.LiteNetwork.get_output_name
@@ -315,7 +322,7 @@ msgstr ""
 #: megenginelite.network.LiteNetwork.stream_id
 #: megenginelite.network.LiteNetwork.threads_number of
 msgid "返回"
-msgstr "返回"
+msgstr ""
 
 #: megenginelite.network.LiteNetwork.device_id:3 of
 msgid "the device id of current network used"
@@ -372,6 +379,26 @@ msgstr ""
 
 #: megenginelite.network.LiteNetwork.get_all_output_name:3 of
 msgid "the names of all output tesor in the network"
+msgstr ""
+
+#: megenginelite.network.LiteNetwork.get_discrete_tensor:1 of
+msgid "get the n_idx'th tensor in the network input tensors whose input consists of discrete multiple tensors and tensor name is name"
+msgstr ""
+
+#: megenginelite.network.LiteNetwork.get_discrete_tensor:4 of
+msgid "the name of input tensor"
+msgstr ""
+
+#: megenginelite.network.LiteNetwork.get_discrete_tensor:5 of
+msgid "the tensor index"
+msgstr ""
+
+#: megenginelite.network.LiteNetwork.get_discrete_tensor:6 of
+msgid "the type of LiteTensor, this is useful to separate input tensor with the same name"
+msgstr ""
+
+#: megenginelite.network.LiteNetwork.get_discrete_tensor:8 of
+msgid "the tensors with given name and type"
 msgstr ""
 
 #: megenginelite.network.LiteNetwork.get_input_name:1 of
@@ -615,5 +642,23 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Note: this must be set before the network loaded"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Execute supported operators with JIT "
+#~ "(support MLIR, NVRTC). Can only be "
+#~ "used on Nvidia GPUs and X86 CPU,"
+#~ " this value indicates JIT level:  "
+#~ "level 1: for JIT execute with "
+#~ "basic elemwise operator  level 2: for"
+#~ " JIT execute elemwise and reduce "
+#~ "operators"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Execute supported operators with JIT "
+#~ "(support MLIR, NVRTC). Can only be "
+#~ "used on Nvidia GPUs and X86 CPU,"
+#~ " this value indicates JIT level:"
 #~ msgstr ""
 
