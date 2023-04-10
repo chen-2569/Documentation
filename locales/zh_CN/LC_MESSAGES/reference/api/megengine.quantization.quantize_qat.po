@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 19:44+0800\n"
-"PO-Revision-Date: 2022-05-09 07:32\n"
+"PO-Revision-Date: 2023-04-10 10:50\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.quantization.quantize_qat.po\n"
-"X-Crowdin-File-ID: 2632\n"
+"X-Crowdin-File: /main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.quantization.quantize_qat.po\n"
+"X-Crowdin-File-ID: 3799\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"X-Crowdin-Project: csx-test\n"
+"X-Crowdin-Project-ID: 579979\n"
 
 #: ../../source/reference/api/megengine.quantization.quantize_qat.rst:2
 msgid "megengine.quantization.quantize\\_qat"
-msgstr "megengine.quantization.quantize\\_qat"
+msgstr ""
 
 #: megengine.quantization.quantize.quantize_qat:1 of
 msgid "Recursively convert float :class:`~.Module` to :class:`~.QATModule` through :meth:`~.Module.apply` and set qconfig relatively."
@@ -28,7 +28,7 @@ msgstr "通过使用 :meth:`~.Module.apply` 并设置相应的 qconfig, 递归�
 
 #: megengine.quantization.quantize.quantize_qat of
 msgid "参数"
-msgstr "参数"
+msgstr ""
 
 #: megengine.quantization.quantize.quantize_qat:5 of
 msgid "root module to do convert recursively."
