@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-08 21:51+0800\n"
-"PO-Revision-Date: 2022-03-18 10:10\n"
+"POT-Creation-Date: 2022-12-24 23:51+0800\n"
+"PO-Revision-Date: 2023-04-10 10:43\n"
 "Last-Translator: \n"
 "Language: zh_CN\n"
 "Language-Team: Chinese Simplified\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"X-Crowdin-Project: csx-test\n"
+"X-Crowdin-Project-ID: 579979\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.functional.nn.batch_norm.po\n"
-"X-Crowdin-File-ID: 3224\n"
+"X-Crowdin-File: /main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.functional.nn.batch_norm.po\n"
+"X-Crowdin-File-ID: 3283\n"
 
 #: ../../source/reference/api/megengine.functional.nn.batch_norm.rst:2
 msgid "megengine.functional.nn.batch\\_norm"
-msgstr "megengine.functional.nn.batch\\_norm"
+msgstr ""
 
 #: megengine.functional.nn.batch_norm:1 of
 msgid "Applies batch normalization to the input."
@@ -32,7 +32,7 @@ msgstr "更多信息参见 :class:`~.BatchNorm2d` 和 :class:`~.BatchNorm1d` 。
 
 #: megengine.functional.nn.batch_norm of
 msgid "参数"
-msgstr "参数"
+msgstr ""
 
 #: megengine.functional.nn.batch_norm:6 of
 msgid "input tensor."
@@ -69,6 +69,14 @@ msgstr "添加到分母的单个值，增加数值稳定性。默认：1e-5"
 #: megengine.functional.nn.batch_norm:26 of
 msgid "whether to update ``running_mean`` and ``running_var`` inplace or return new tensors. Default: True"
 msgstr "是否更新原始 tensors``running_mean`` 和 ``running_var`` tensor， 默认： ``True``， 如果设置成 ``Flase``, 则不更新原始 tensors， 而是返回新的 tensors."
+
+#: megengine.functional.nn.batch_norm:28 of
+msgid "When set to 'default', no special requirements will be placed on the precision of intermediate results. When set to 'float32', float32 would be used for accumulator and intermediate result, but only effective when input and output are of float16 dtype."
+msgstr ""
+
+#: megengine.functional.nn.batch_norm:32 of
+msgid "a value indicating in which format the parameters are. Default: 'dim_1c11', which means NCHW format. And 'dim_111c' means NHWC format."
+msgstr ""
 
 #~ msgid ""
 #~ "bias tensor in the learnable affine "
