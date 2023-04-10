@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-26 13:50+0800\n"
-"PO-Revision-Date: 2022-09-14 03:28\n"
+"POT-Creation-Date: 2022-12-24 23:51+0800\n"
+"PO-Revision-Date: 2023-04-10 10:43\n"
 "Last-Translator: \n"
 "Language: zh_CN\n"
 "Language-Team: Chinese Simplified\n"
@@ -11,52 +11,56 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Crowdin-Project: csx-test\n"
+"X-Crowdin-Project-ID: 579979\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.functional.neg.po\n"
-"X-Crowdin-File-ID: 2224\n"
+"X-Crowdin-File: /main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.functional.neg.po\n"
+"X-Crowdin-File-ID: 3275\n"
 
 #: ../../source/reference/api/megengine.functional.neg.rst:2
 msgid "megengine.functional.neg"
-msgstr "megengine.functional.neg"
+msgstr ""
 
 #: megengine.functional.elemwise.neg:1 of
+msgid "Element-wise negation."
+msgstr ""
+
+#: megengine.functional.elemwise.neg:3 of
 msgid "Computes the numerical negative of each element :math:`x_i` (i.e., :math:`y_i = -x_i` ) of the input tensor :math:`x`."
 msgstr "计算输入张量 :math:`x` 的每个元素 :math:`x_i` 的负数 (即 :math:`y_i = -x_i`)。"
 
 #: megengine.functional.elemwise.neg of
 msgid "参数"
-msgstr "参数"
+msgstr ""
 
-#: megengine.functional.elemwise.neg:4 of
+#: megengine.functional.elemwise.neg:6 of
 msgid "input tensor. Should have a numeric data type."
 msgstr "输入张量。 应该有一个数字数据类型。"
 
 #: megengine.functional.elemwise.neg of
 msgid "返回类型"
-msgstr "返回类型"
+msgstr ""
 
-#: megengine.functional.elemwise.neg:6 of
+#: megengine.functional.elemwise.neg:8 of
 msgid ":py:class:`~megengine.tensor.Tensor`"
-msgstr ":py:class:`~megengine.tensor.Tensor`"
+msgstr ""
 
 #: megengine.functional.elemwise.neg of
 msgid "返回"
-msgstr "返回"
+msgstr ""
 
-#: megengine.functional.elemwise.neg:7 of
+#: megengine.functional.elemwise.neg:9 of
 msgid "A tensor containing the evaluated result for each element in :math:`x`. The returned tensor must have a data type determined by :ref:`dtype-promotion`."
 msgstr "一个张量包含 :math:`x` 中每个元素的评估结果。 返回的张量必须具有由 :ref:`dtype-promotion` 确定的数据类型。"
 
-#: megengine.functional.elemwise.neg:12 of
+#: megengine.functional.elemwise.neg:14 of
 msgid "The unary ``-`` operator can be used as a shorthand for ``neg`` on tensors."
 msgstr "一元 ``-`` 运算符可以用作张量上 `neg`` 的简写。"
 
-#: megengine.functional.elemwise.neg:15 of
+#: megengine.functional.elemwise.neg:17 of
 msgid "实际案例"
-msgstr "实际案例"
+msgstr ""
 
 #~ msgid "Element-wise `negation`."
 #~ msgstr "逐元素取相反数。"
