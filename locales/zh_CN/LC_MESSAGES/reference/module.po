@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-01 21:02+0800\n"
-"PO-Revision-Date: 2022-09-26 10:03\n"
+"PO-Revision-Date: 2023-04-10 10:51\n"
 "Last-Translator: \n"
 "Language: zh_CN\n"
 "Language-Team: Chinese Simplified\n"
@@ -12,23 +12,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"X-Crowdin-Project: csx-test\n"
+"X-Crowdin-Project-ID: 579979\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/module.po\n"
-"X-Crowdin-File-ID: 2798\n"
+"X-Crowdin-File: /main/locales/zh_CN/LC_MESSAGES/reference/module.po\n"
+"X-Crowdin-File-ID: 3895\n"
 
 #: ../../source/reference/module.rst:6
 msgid "megengine.module"
-msgstr "megengine.module"
+msgstr ""
 
 #: ../../source/reference/module.rst:12
 msgid "关于 Module 的使用案例，请参考 :ref:`module-guide` ；"
-msgstr "关于 Module 的使用案例，请参考 :ref:`module-guide` ；"
+msgstr ""
 
 #: ../../source/reference/module.rst:13
 msgid "关于如何进行模型量化以及几类 Module 的转换原理，请参考 :ref:`quantization-guide` 。"
-msgstr "关于如何进行模型量化以及几类 Module 的转换原理，请参考 :ref:`quantization-guide` 。"
+msgstr ""
 
 #: ../../source/reference/module.rst:18
 msgid "Float Module"
@@ -40,7 +40,7 @@ msgstr "容器"
 
 #: ../../source/reference/module.rst:28:<autosummary>:1
 msgid ":py:obj:`Module <megengine.module.Module>`"
-msgstr ":py:obj:`Module <megengine.module.Module>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:28:<autosummary>:1
 msgid "Base Module class."
@@ -48,7 +48,7 @@ msgstr "Module 基类。"
 
 #: ../../source/reference/module.rst:28:<autosummary>:1
 msgid ":py:obj:`Sequential <megengine.module.Sequential>`"
-msgstr ":py:obj:`Sequential <megengine.module.Sequential>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:28:<autosummary>:1
 msgid "A sequential container."
@@ -60,7 +60,7 @@ msgstr "一般操作"
 
 #: ../../source/reference/module.rst:37:<autosummary>:1
 msgid ":py:obj:`Elemwise <megengine.module.Elemwise>`"
-msgstr ":py:obj:`Elemwise <megengine.module.Elemwise>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:37:<autosummary>:1
 msgid "A :class:`~.Module` to do :mod:`~.functional.elemwise` operator."
@@ -68,7 +68,7 @@ msgstr "进行 :mod:`~.functional.elemwise` 运算的 :class:`~.Module`."
 
 #: ../../source/reference/module.rst:37:<autosummary>:1
 msgid ":py:obj:`Concat <megengine.module.Concat>`"
-msgstr ":py:obj:`Concat <megengine.module.Concat>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:37:<autosummary>:1
 msgid "A :class:`~.Module` to do functional :func:`~.concat`."
@@ -80,7 +80,7 @@ msgstr "卷积层"
 
 #: ../../source/reference/module.rst:53:<autosummary>:1
 msgid ":py:obj:`Conv1d <megengine.module.Conv1d>`"
-msgstr ":py:obj:`Conv1d <megengine.module.Conv1d>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:53:<autosummary>:1
 msgid "Applies a 1D convolution over an input tensor."
@@ -88,7 +88,7 @@ msgstr "对输入张量进行一维卷积"
 
 #: ../../source/reference/module.rst:53:<autosummary>:1
 msgid ":py:obj:`Conv2d <megengine.module.Conv2d>`"
-msgstr ":py:obj:`Conv2d <megengine.module.Conv2d>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:53:<autosummary>:1
 msgid "Applies a 2D convolution over an input tensor."
@@ -96,7 +96,7 @@ msgstr "对输入张量进行二维卷积"
 
 #: ../../source/reference/module.rst:53:<autosummary>:1
 msgid ":py:obj:`Conv3d <megengine.module.Conv3d>`"
-msgstr ":py:obj:`Conv3d <megengine.module.Conv3d>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:53:<autosummary>:1
 msgid "Applies a 3D convolution over an input tensor."
@@ -104,7 +104,7 @@ msgstr "对输入 tensor 进行三维卷积"
 
 #: ../../source/reference/module.rst:53:<autosummary>:1
 msgid ":py:obj:`ConvTranspose2d <megengine.module.ConvTranspose2d>`"
-msgstr ":py:obj:`ConvTranspose2d <megengine.module.ConvTranspose2d>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:53:<autosummary>:1
 msgid "Applies a 2D transposed convolution over an input tensor."
@@ -112,7 +112,7 @@ msgstr "对输入张量进行二维转置卷积。"
 
 #: ../../source/reference/module.rst:53:<autosummary>:1
 msgid ":py:obj:`ConvTranspose3d <megengine.module.ConvTranspose3d>`"
-msgstr ":py:obj:`ConvTranspose3d <megengine.module.ConvTranspose3d>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:53:<autosummary>:1
 msgid "Applies a 3D transposed convolution over an input tensor."
@@ -120,7 +120,7 @@ msgstr "在一个input tensor上使用3D转置卷积。"
 
 #: ../../source/reference/module.rst:53:<autosummary>:1
 msgid ":py:obj:`LocalConv2d <megengine.module.LocalConv2d>`"
-msgstr ":py:obj:`LocalConv2d <megengine.module.LocalConv2d>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:53:<autosummary>:1
 msgid "Applies a spatial convolution with untied kernels over an groupped channeled input 4D tensor."
@@ -128,7 +128,7 @@ msgstr "对4D输入tensor进行通道分组并应用非统一kernel的空间卷�
 
 #: ../../source/reference/module.rst:53:<autosummary>:1
 msgid ":py:obj:`DeformableConv2d <megengine.module.DeformableConv2d>`"
-msgstr ":py:obj:`DeformableConv2d <megengine.module.DeformableConv2d>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:53:<autosummary>:1
 msgid "Deformable Convolution."
@@ -136,7 +136,7 @@ msgstr "可变形卷积"
 
 #: ../../source/reference/module.rst:53:<autosummary>:1
 msgid ":py:obj:`SlidingWindow <megengine.module.SlidingWindow>`"
-msgstr ":py:obj:`SlidingWindow <megengine.module.SlidingWindow>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:53:<autosummary>:1
 msgid "Apply a sliding window to input tensor and copy content in the window to corresponding output location."
@@ -144,7 +144,7 @@ msgstr "对输入tensor连续应用滑窗操作，每次拷贝滑窗内数据作
 
 #: ../../source/reference/module.rst:53:<autosummary>:1
 msgid ":py:obj:`SlidingWindowTranspose <megengine.module.SlidingWindowTranspose>`"
-msgstr ":py:obj:`SlidingWindowTranspose <megengine.module.SlidingWindowTranspose>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:53:<autosummary>:1
 msgid "Opposite opration of SlidingWindow, sum over the sliding windows on the corresponding input location."
@@ -156,7 +156,7 @@ msgstr "池化层"
 
 #: ../../source/reference/module.rst:65:<autosummary>:1
 msgid ":py:obj:`AvgPool2d <megengine.module.AvgPool2d>`"
-msgstr ":py:obj:`AvgPool2d <megengine.module.AvgPool2d>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:65:<autosummary>:1
 msgid "Applies a 2D average pooling over an input."
@@ -164,7 +164,7 @@ msgstr "对输入数据进行2D平均池化。"
 
 #: ../../source/reference/module.rst:65:<autosummary>:1
 msgid ":py:obj:`MaxPool2d <megengine.module.MaxPool2d>`"
-msgstr ":py:obj:`MaxPool2d <megengine.module.MaxPool2d>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:65:<autosummary>:1
 msgid "Applies a 2D max pooling over an input."
@@ -172,11 +172,11 @@ msgstr "对输入数据进行2D最大值池化（max pooling）。"
 
 #: ../../source/reference/module.rst:65:<autosummary>:1
 msgid ":py:obj:`AdaptiveAvgPool2d <megengine.module.AdaptiveAvgPool2d>`"
-msgstr ":py:obj:`AdaptiveAvgPool2d <megengine.module.AdaptiveAvgPool2d>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:65:<autosummary>:1
 msgid ":py:obj:`AdaptiveMaxPool2d <megengine.module.AdaptiveMaxPool2d>`"
-msgstr ":py:obj:`AdaptiveMaxPool2d <megengine.module.AdaptiveMaxPool2d>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:65:<autosummary>:1
 msgid "Applies a 2D max adaptive pooling over an input."
@@ -184,7 +184,7 @@ msgstr "对输入数据进行2D最大池化。"
 
 #: ../../source/reference/module.rst:65:<autosummary>:1
 msgid ":py:obj:`DeformablePSROIPooling <megengine.module.DeformablePSROIPooling>`"
-msgstr ":py:obj:`DeformablePSROIPooling <megengine.module.DeformablePSROIPooling>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:67
 msgid "Padding layers"
@@ -192,7 +192,7 @@ msgstr "Padding层"
 
 #: ../../source/reference/module.rst:73:<autosummary>:1
 msgid ":py:obj:`Pad <megengine.module.Pad>`"
-msgstr ":py:obj:`Pad <megengine.module.Pad>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:73:<autosummary>:1
 msgid "Pads the input tensor."
@@ -204,7 +204,7 @@ msgstr "非线性激活层"
 
 #: ../../source/reference/module.rst:87:<autosummary>:1
 msgid ":py:obj:`Sigmoid <megengine.module.Sigmoid>`"
-msgstr ":py:obj:`Sigmoid <megengine.module.Sigmoid>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:87:<autosummary>:1
 msgid "Applies the element-wise function:"
@@ -212,7 +212,7 @@ msgstr "对每个元素应用函数："
 
 #: ../../source/reference/module.rst:87:<autosummary>:1
 msgid ":py:obj:`Softmax <megengine.module.Softmax>`"
-msgstr ":py:obj:`Softmax <megengine.module.Softmax>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:87:<autosummary>:1
 msgid "Applies a softmax function."
@@ -220,23 +220,23 @@ msgstr "应用softmax函数。"
 
 #: ../../source/reference/module.rst:87:<autosummary>:1
 msgid ":py:obj:`ReLU <megengine.module.ReLU>`"
-msgstr ":py:obj:`ReLU <megengine.module.ReLU>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:87:<autosummary>:1
 msgid ":py:obj:`LeakyReLU <megengine.module.LeakyReLU>`"
-msgstr ":py:obj:`LeakyReLU <megengine.module.LeakyReLU>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:87:<autosummary>:1
 msgid ":py:obj:`PReLU <megengine.module.PReLU>`"
-msgstr ":py:obj:`PReLU <megengine.module.PReLU>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:87:<autosummary>:1
 msgid ":py:obj:`SiLU <megengine.module.SiLU>`"
-msgstr ":py:obj:`SiLU <megengine.module.SiLU>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:87:<autosummary>:1
 msgid ":py:obj:`GELU <megengine.module.GELU>`"
-msgstr ":py:obj:`GELU <megengine.module.GELU>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:89
 msgid "Normalization Layers"
@@ -244,7 +244,7 @@ msgstr "归一化层"
 
 #: ../../source/reference/module.rst:101:<autosummary>:1
 msgid ":py:obj:`BatchNorm1d <megengine.module.BatchNorm1d>`"
-msgstr ":py:obj:`BatchNorm1d <megengine.module.BatchNorm1d>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:101:<autosummary>:1
 msgid "Applies Batch Normalization over a 2D/3D tensor."
@@ -252,7 +252,7 @@ msgstr "在2D/3D张量上进行批标准化（batch normalization）。"
 
 #: ../../source/reference/module.rst:101:<autosummary>:1
 msgid ":py:obj:`BatchNorm2d <megengine.module.BatchNorm2d>`"
-msgstr ":py:obj:`BatchNorm2d <megengine.module.BatchNorm2d>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:101:<autosummary>:1
 msgid "Applies Batch Normalization over a 4D tensor."
@@ -260,7 +260,7 @@ msgstr "在四维张量上进行批标准化（Batch Normalization）。"
 
 #: ../../source/reference/module.rst:101:<autosummary>:1
 msgid ":py:obj:`SyncBatchNorm <megengine.module.SyncBatchNorm>`"
-msgstr ":py:obj:`SyncBatchNorm <megengine.module.SyncBatchNorm>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:101:<autosummary>:1
 msgid "Applies Synchronized Batch Normalization for distributed training."
@@ -268,7 +268,7 @@ msgstr "对于分布式训练执行组同步Batch Normalization操作。"
 
 #: ../../source/reference/module.rst:101:<autosummary>:1
 msgid ":py:obj:`GroupNorm <megengine.module.GroupNorm>`"
-msgstr ":py:obj:`GroupNorm <megengine.module.GroupNorm>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:101:<autosummary>:1
 msgid "Simple implementation of GroupNorm."
@@ -276,7 +276,7 @@ msgstr "对于GroupNorm的简单实现。将Channel方向分Group，然后每个
 
 #: ../../source/reference/module.rst:101:<autosummary>:1
 msgid ":py:obj:`InstanceNorm <megengine.module.InstanceNorm>`"
-msgstr ":py:obj:`InstanceNorm <megengine.module.InstanceNorm>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:101:<autosummary>:1
 msgid "Simple implementation of InstanceNorm."
@@ -284,7 +284,7 @@ msgstr "InstanceNorm的简单实现。对Channel内做归一化，算H*W的均�
 
 #: ../../source/reference/module.rst:101:<autosummary>:1
 msgid ":py:obj:`LayerNorm <megengine.module.LayerNorm>`"
-msgstr ":py:obj:`LayerNorm <megengine.module.LayerNorm>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:101:<autosummary>:1
 msgid "Simple implementation of LayerNorm."
@@ -292,7 +292,7 @@ msgstr "层归一化的简单实现，对于Channel方向做归一化，算CHW�
 
 #: ../../source/reference/module.rst:101:<autosummary>:1
 msgid ":py:obj:`LocalResponseNorm <megengine.module.LocalResponseNorm>`"
-msgstr ":py:obj:`LocalResponseNorm <megengine.module.LocalResponseNorm>`"
+msgstr ""
 
 #: ../../source/reference/module.rst:101:<autosummary>:1
 msgid "Apply local response normalization to the input tensor."
