@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-26 13:50+0800\n"
-"PO-Revision-Date: 2022-08-04 09:20\n"
+"POT-Creation-Date: 2022-12-24 23:51+0800\n"
+"PO-Revision-Date: 2023-04-10 10:37\n"
 "Last-Translator: \n"
 "Language: en_US\n"
 "Language-Team: English\n"
@@ -11,12 +11,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Crowdin-Project: csx-test\n"
+"X-Crowdin-Project-ID: 579979\n"
 "X-Crowdin-Language: en\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.Parameter.po\n"
-"X-Crowdin-File-ID: 1864\n"
+"X-Crowdin-File: /main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.Parameter.po\n"
+"X-Crowdin-File-ID: 2855\n"
 
 #: ../../source/reference/api/megengine.Parameter.rst:2
 msgid "megengine.Parameter"
@@ -55,6 +55,10 @@ msgid ":py:obj:`dmap_callback <megengine.Parameter.dmap_callback>`\\"
 msgstr ""
 
 #: ../../source/reference/api/megengine.Parameter.rst:55:<autosummary>:1
+msgid "callback for device mapping, see :func:`~.load`."
+msgstr ""
+
+#: ../../source/reference/api/megengine.Parameter.rst:55:<autosummary>:1
 msgid ":py:obj:`dtype <megengine.Parameter.dtype>`\\"
 msgstr ""
 
@@ -66,12 +70,8 @@ msgstr ""
 msgid ":py:obj:`format <megengine.Parameter.format>`\\"
 msgstr ""
 
-#: ../../source/reference/api/megengine.Parameter.rst:55:<autosummary>
-msgid "rtype"
-msgstr ""
-
 #: ../../source/reference/api/megengine.Parameter.rst:55:<autosummary>:1
-msgid ":py:class:`str`"
+msgid "Returns a string represents the :ref:`memory format <format-introduction>` of a :class:`~.Tensor`."
 msgstr ""
 
 #: ../../source/reference/api/megengine.Parameter.rst:55:<autosummary>:1
@@ -79,7 +79,15 @@ msgid ":py:obj:`grad <megengine.Parameter.grad>`\\"
 msgstr ""
 
 #: ../../source/reference/api/megengine.Parameter.rst:55:<autosummary>:1
+msgid "gradient of this tensor, see :mod:`~.autodiff`."
+msgstr ""
+
+#: ../../source/reference/api/megengine.Parameter.rst:55:<autosummary>:1
 msgid ":py:obj:`name <megengine.Parameter.name>`\\"
+msgstr ""
+
+#: ../../source/reference/api/megengine.Parameter.rst:55:<autosummary>:1
+msgid "Returns a string represents the name of a :class:`~.Tensor`."
 msgstr ""
 
 #: ../../source/reference/api/megengine.Parameter.rst:55:<autosummary>:1
@@ -100,6 +108,10 @@ msgstr ""
 
 #: ../../source/reference/api/megengine.Parameter.rst:55:<autosummary>:1
 msgid ":py:obj:`requires_grad <megengine.Parameter.requires_grad>`\\"
+msgstr ""
+
+#: ../../source/reference/api/megengine.Parameter.rst:55:<autosummary>:1
+msgid "Returns a bool indicates whether the :class:`~.Tensor` requires gradient."
 msgstr ""
 
 #: ../../source/reference/api/megengine.Parameter.rst:55:<autosummary>:1
@@ -297,4 +309,10 @@ msgstr ""
 #~ "the input tensor in the given "
 #~ "dimension ``axis``."
 #~ msgstr "返回给定维度 ``axis`` 中输入张量的每一行的总和。"
+
+#~ msgid "rtype"
+#~ msgstr ""
+
+#~ msgid ":py:class:`str`"
+#~ msgstr ":py:class:`str`"
 
