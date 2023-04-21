@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test-old-megengine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-14 16:12+0800\n"
-"PO-Revision-Date: 2022-03-25 15:10\n"
+"PO-Revision-Date: 2023-04-21 07:21\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -11,16 +11,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"X-Crowdin-Project: csx-test-old-megengine\n"
+"X-Crowdin-Project-ID: 579989\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.functional.diag.po\n"
-"X-Crowdin-File-ID: 8390\n"
+"X-Crowdin-File: /release.v1.11/locales/zh_CN/LC_MESSAGES/reference/api/megengine.functional.diag.po\n"
+"X-Crowdin-File-ID: 7207\n"
 "Language: zh_CN\n"
 
 #: ../../source/reference/api/megengine.functional.diag.rst:2
 msgid "megengine.functional.diag"
-msgstr "megengine.functional.diag"
+msgstr ""
 
 #: megengine.functional.tensor.diag:1 of
 msgid "If ``inp`` is a 1D tensor, then returns a 2D tensor with the elements of ``inp`` as the diagonal. If ``inp`` is a 2D tensor, then returns a 1D tensor with the diagonal elements of ``inp``."
@@ -28,7 +28,7 @@ msgstr "如果 ``inp`` 是 1 维张量，则返回由 ``inp`` 中元素作为对
 
 #: megengine.functional.tensor.diag of
 msgid "参数"
-msgstr "参数"
+msgstr ""
 
 #: megengine.functional.tensor.diag:4 of
 msgid "input tensor."
@@ -40,15 +40,15 @@ msgstr "对角线偏移量。使用 :math:`k=0` 则表示在主对角线上， :
 
 #: megengine.functional.tensor.diag of
 msgid "返回类型"
-msgstr "返回类型"
+msgstr ""
 
 #: megengine.functional.tensor.diag:8 of
 msgid ":py:class:`~megengine.tensor.Tensor`"
-msgstr ":py:class:`~megengine.tensor.Tensor`"
+msgstr ""
 
 #: megengine.functional.tensor.diag of
 msgid "返回"
-msgstr "返回"
+msgstr ""
 
 #: megengine.functional.tensor.diag:9 of
 msgid "the extracted diagonal or constructed diagonal array."
@@ -56,5 +56,5 @@ msgstr "提取出的对角线或构造出的对角矩阵。"
 
 #: megengine.functional.tensor.diag:12 of
 msgid "实际案例"
-msgstr "实际案例"
+msgstr ""
 
