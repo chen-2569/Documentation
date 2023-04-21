@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test-old-megengine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-19 16:51+0800\n"
-"PO-Revision-Date: 2022-04-19 12:31\n"
+"PO-Revision-Date: 2023-04-21 07:20\n"
 "Last-Translator: \n"
 "Language: zh_CN\n"
 "Language-Team: Chinese Simplified\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"X-Crowdin-Project: csx-test-old-megengine\n"
+"X-Crowdin-Project-ID: 579989\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.functional.arange.po\n"
-"X-Crowdin-File-ID: 2042\n"
+"X-Crowdin-File: /release.v1.11/locales/zh_CN/LC_MESSAGES/reference/api/megengine.functional.arange.po\n"
+"X-Crowdin-File-ID: 7167\n"
 
 #: ../../source/reference/api/megengine.functional.arange.rst:2
 msgid "megengine.functional.arange"
-msgstr "megengine.functional.arange"
+msgstr ""
 
 #: megengine.functional.tensor.arange:1 of
 msgid "Returns evenly spaced values within the half-open interval ``[start, stop)`` as a one-dimensional tensor."
@@ -32,7 +32,7 @@ msgstr "step 不是整数且浮点舍入误差影响了输出Tensor长度的情�
 
 #: megengine.functional.tensor.arange of
 msgid "参数"
-msgstr "参数"
+msgstr ""
 
 #: megengine.functional.tensor.arange:9 of
 msgid "if ``stop`` is specified, the start of interval (inclusive); otherwise, the end of the interval (exclusive). If ``stop`` is not specified, the default starting value is ``0``."
@@ -48,7 +48,7 @@ msgstr "两个相邻元素的距离( ``out[i+1] - out[i]`` )。必须不为0；�
 
 #: megengine.functional.tensor.arange of
 msgid "关键字参数"
-msgstr "关键字参数"
+msgstr ""
 
 #: megengine.functional.tensor.arange:17 of
 msgid "output tensor data type. Default: ``float32``."
@@ -60,15 +60,15 @@ msgstr "放置被创建tensor的设备。默认值： ``None``。"
 
 #: megengine.functional.tensor.arange of
 msgid "返回类型"
-msgstr "返回类型"
+msgstr ""
 
 #: megengine.functional.tensor.arange:22 of
 msgid ":py:class:`~megengine.tensor.Tensor`"
-msgstr ":py:class:`~megengine.tensor.Tensor`"
+msgstr ""
 
 #: megengine.functional.tensor.arange of
 msgid "返回"
-msgstr "返回"
+msgstr ""
 
 #: megengine.functional.tensor.arange:23 of
 msgid "A one-dimensional tensor containing evenly spaced values.  The length of the output tensor must be ``ceil((stop-start)/step)`` if ``stop - start`` and ``step`` have the same sign, and length 0 otherwise."
@@ -76,7 +76,7 @@ msgstr "由均匀间隔的值组成的1维tensor。在 ``stop - start`` 和 ``st
 
 #: megengine.functional.tensor.arange:29 of
 msgid "实际案例"
-msgstr "实际案例"
+msgstr ""
 
 #~ msgid ":py:class:`~megengine.tensor.Tensor`"
 #~ msgstr ":py:class:`~megengine.tensor.Tensor`"
