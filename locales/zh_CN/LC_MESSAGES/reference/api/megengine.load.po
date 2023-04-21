@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test-old-megengine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-08 21:51+0800\n"
-"PO-Revision-Date: 2022-05-16 04:42\n"
+"PO-Revision-Date: 2023-04-21 07:26\n"
 "Last-Translator: \n"
 "Language: zh_CN\n"
 "Language-Team: Chinese Simplified\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"X-Crowdin-Project: csx-test-old-megengine\n"
+"X-Crowdin-Project-ID: 579989\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.load.po\n"
-"X-Crowdin-File-ID: 2358\n"
+"X-Crowdin-File: /release.v1.11/locales/zh_CN/LC_MESSAGES/reference/api/megengine.load.po\n"
+"X-Crowdin-File-ID: 7593\n"
 
 #: ../../source/reference/api/megengine.load.rst:2
 msgid "megengine.load"
-msgstr "megengine.load"
+msgstr ""
 
 #: megengine.serialization.load:1 of
 msgid "Load an object saved with :func:~.megengine.save` from a file."
@@ -28,7 +28,7 @@ msgstr "从文件中加载一个用 `:func:~.megengine.save` 保存的对象"
 
 #: megengine.serialization.load of
 msgid "参数"
-msgstr "参数"
+msgstr ""
 
 #: megengine.serialization.load:3 of
 msgid "a string of file name or a text file object from which to load."
@@ -52,7 +52,7 @@ msgstr "如果你要调用 :func:`~.megengine.set_default_device()`, 请在 :fun
 
 #: megengine.serialization.load:14 of
 msgid "实际案例"
-msgstr "实际案例"
+msgstr ""
 
 #~ msgid "Examples:"
 #~ msgstr "例如："
