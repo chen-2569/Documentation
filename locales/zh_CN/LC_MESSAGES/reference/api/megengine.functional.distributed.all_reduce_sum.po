@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test-old-megengine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-19 16:51+0800\n"
-"PO-Revision-Date: 2022-04-19 12:32\n"
+"PO-Revision-Date: 2023-04-21 07:21\n"
 "Last-Translator: \n"
 "Language: zh_CN\n"
 "Language-Team: Chinese Simplified\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"X-Crowdin-Project: csx-test-old-megengine\n"
+"X-Crowdin-Project-ID: 579989\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.functional.distributed.all_reduce_sum.po\n"
-"X-Crowdin-File-ID: 2098\n"
+"X-Crowdin-File: /release.v1.11/locales/zh_CN/LC_MESSAGES/reference/api/megengine.functional.distributed.all_reduce_sum.po\n"
+"X-Crowdin-File-ID: 7215\n"
 
 #: ../../source/reference/api/megengine.functional.distributed.all_reduce_sum.rst:2
 msgid "megengine.functional.distributed.all\\_reduce\\_sum"
-msgstr "megengine.functional.distributed.all\\_reduce\\_sum"
+msgstr ""
 
 #: megengine.distributed.functional.all_reduce_sum:1 of
 msgid "Reduce tensors with sum operation on each value across the specified group."
@@ -32,7 +32,7 @@ msgstr "``inp`` 张量在整个组的所有进程中必须形状相同。"
 
 #: megengine.distributed.functional.all_reduce_sum of
 msgid "参数"
-msgstr "参数"
+msgstr ""
 
 #: megengine.distributed.functional.all_reduce_sum:6 of
 msgid "tensor to be reduced."
@@ -40,7 +40,7 @@ msgstr "需要规约的张量"
 
 #: megengine.distributed.functional.all_reduce_sum of
 msgid "关键字参数"
-msgstr "关键字参数"
+msgstr ""
 
 #: megengine.distributed.functional.all_reduce_sum:9 of
 msgid "the process group to work on. Default: ``WORLD``. ``WORLD`` group selects all processes available. list of process rank as parameter will create a new group to work on."
@@ -52,15 +52,15 @@ msgstr "执行此操作的设备。默认值： ``None``. ``None`` 表示以 ``i
 
 #: megengine.distributed.functional.all_reduce_sum of
 msgid "返回类型"
-msgstr "返回类型"
+msgstr ""
 
 #: megengine.distributed.functional.all_reduce_sum:20 of
 msgid ":py:class:`~megengine.tensor.Tensor`"
-msgstr ":py:class:`~megengine.tensor.Tensor`"
+msgstr ""
 
 #: megengine.distributed.functional.all_reduce_sum of
 msgid "返回"
-msgstr "返回"
+msgstr ""
 
 #: megengine.distributed.functional.all_reduce_sum:21 of
 msgid "A tensor with sum operation on each value across the group.  The shape of the output tensor must be the same as ``inp``, and the output tensor is going to be bitwise identical in all processes across the group."
@@ -68,7 +68,7 @@ msgstr "对组中的的值进行求和操作所得到的张量。输出张量的
 
 #: megengine.distributed.functional.all_reduce_sum:27 of
 msgid "实际案例"
-msgstr "实际案例"
+msgstr ""
 
 #~ msgid "返回类型"
 #~ msgstr "返回类型"
