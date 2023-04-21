@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test-old-megengine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-04 16:51+0800\n"
-"PO-Revision-Date: 2022-08-04 09:19\n"
+"PO-Revision-Date: 2023-04-21 07:34\n"
 "Last-Translator: \n"
 "Language: zh_CN\n"
 "Language-Team: Chinese Simplified\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"X-Crowdin-Project: csx-test-old-megengine\n"
+"X-Crowdin-Project-ID: 579989\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/lite/network.po\n"
-"X-Crowdin-File-ID: 8434\n"
+"X-Crowdin-File: /release.v1.11/locales/zh_CN/LC_MESSAGES/reference/lite/network.po\n"
+"X-Crowdin-File-ID: 8153\n"
 
 #: ../../source/reference/lite/network.rst:5
 msgid "lite/network.h"
-msgstr "lite/network.h"
+msgstr ""
 
 #: ../../source/reference/lite/network.rst
 msgid "Param unordered_map"
@@ -32,51 +32,51 @@ msgstr ""
 
 #: ../../source/reference/lite/network.rst
 msgid "Param weight_preprocess"
-msgstr "Param weight_preprocess"
+msgstr ""
 
 #: ../../source/reference/lite/network.rst
 msgid "Param fuse_preprocess"
-msgstr "Param fuse_preprocess"
+msgstr ""
 
 #: ../../source/reference/lite/network.rst
 msgid "Param fake_next_exec"
-msgstr "Param fake_next_exec"
+msgstr ""
 
 #: ../../source/reference/lite/network.rst
 msgid "Param var_sanity_check_first_run"
-msgstr "Param var_sanity_check_first_run"
+msgstr ""
 
 #: ../../source/reference/lite/network.rst
 msgid "Param const_shape"
-msgstr "Param const_shape"
+msgstr ""
 
 #: ../../source/reference/lite/network.rst
 msgid "Param force_dynamic_alloc"
-msgstr "Param force_dynamic_alloc"
+msgstr ""
 
 #: ../../source/reference/lite/network.rst
 msgid "Param force_output_dynamic_alloc"
-msgstr "Param force_output_dynamic_alloc"
+msgstr ""
 
 #: ../../source/reference/lite/network.rst
 msgid "Param no_profiling_on_shape_change"
-msgstr "Param no_profiling_on_shape_change"
+msgstr ""
 
 #: ../../source/reference/lite/network.rst
 msgid "Param jit_level"
-msgstr "Param jit_level"
+msgstr ""
 
 #: ../../source/reference/lite/network.rst
 msgid "Param record_level"
-msgstr "Param record_level"
+msgstr ""
 
 #: ../../source/reference/lite/network.rst
 msgid "Param graph_opt_level"
-msgstr "Param graph_opt_level"
+msgstr ""
 
 #: ../../source/reference/lite/network.rst
 msgid "Param async_exec_level"
-msgstr "Param async_exec_level"
+msgstr ""
 
 #: ../../source/reference/lite/network.rst
 msgid "Public Members"
@@ -148,7 +148,7 @@ msgstr "公开函数"
 
 #: ../../source/reference/lite/network.rst
 msgid "参数"
-msgstr "参数"
+msgstr ""
 
 #: ../../source/reference/lite/network.rst
 msgid "Constructor"
@@ -172,7 +172,7 @@ msgstr ""
 
 #: ../../source/reference/lite/network.rst
 msgid "返回"
-msgstr "返回"
+msgstr ""
 
 #~ msgid "Friends"
 #~ msgstr "友元"
