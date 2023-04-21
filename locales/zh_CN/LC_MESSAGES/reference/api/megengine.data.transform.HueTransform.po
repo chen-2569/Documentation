@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test-old-megengine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-28 09:14+0000\n"
-"PO-Revision-Date: 2022-05-09 07:22\n"
+"PO-Revision-Date: 2023-04-21 07:19\n"
 "Last-Translator: \n"
 "Language: zh_CN\n"
 "Language-Team: Chinese Simplified\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"X-Crowdin-Project: csx-test-old-megengine\n"
+"X-Crowdin-Project-ID: 579989\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.data.transform.HueTransform.po\n"
-"X-Crowdin-File-ID: 1964\n"
+"X-Crowdin-File: /release.v1.11/locales/zh_CN/LC_MESSAGES/reference/api/megengine.data.transform.HueTransform.po\n"
+"X-Crowdin-File-ID: 7081\n"
 
 #: ../../source/reference/api/megengine.data.transform.HueTransform.rst:5
 msgid "HueTransform"
-msgstr "HueTransform"
+msgstr ""
 
 #: megengine.data.transform.vision.transform.HueTransform:1 of
 msgid "Adjust hue of the input data."
@@ -28,7 +28,7 @@ msgstr "调整输入数据的色调。"
 
 #: megengine.data.transform.vision.transform.HueTransform of
 msgid "参数"
-msgstr "参数"
+msgstr ""
 
 #: megengine.data.transform.vision.transform.HueTransform:3 of
 msgid "how much to adjust the hue. Can be any number between 0 and 0.5, 0 gives the original image."
