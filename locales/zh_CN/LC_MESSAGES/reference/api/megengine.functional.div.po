@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test-old-megengine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-26 13:50+0800\n"
-"PO-Revision-Date: 2022-09-22 06:32\n"
+"PO-Revision-Date: 2023-04-21 07:21\n"
 "Last-Translator: \n"
 "Language: zh_CN\n"
 "Language-Team: Chinese Simplified\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"X-Crowdin-Project: csx-test-old-megengine\n"
+"X-Crowdin-Project-ID: 579989\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.functional.div.po\n"
-"X-Crowdin-File-ID: 2116\n"
+"X-Crowdin-File: /release.v1.11/locales/zh_CN/LC_MESSAGES/reference/api/megengine.functional.div.po\n"
+"X-Crowdin-File-ID: 7235\n"
 
 #: ../../source/reference/api/megengine.functional.div.rst:2
 msgid "megengine.functional.div"
-msgstr "megengine.functional.div"
+msgstr ""
 
 #: megengine.functional.elemwise.div:1 of
 msgid "Calculates the division for each element :math:`x_i` of the input tensor :math:`x` with the respective element :math:`y_i` of the input tensor :math:`y`."
@@ -28,7 +28,7 @@ msgstr "计算输入 :math:`x` 与输入 :math:`y` 的逐元素除。"
 
 #: megengine.functional.elemwise.div of
 msgid "参数"
-msgstr "参数"
+msgstr ""
 
 #: megengine.functional.elemwise.div:4 of
 msgid "dividend input tensor. Should have a numeric data type."
@@ -40,15 +40,15 @@ msgstr "除数 Tensor，其 shape 必须与 ``x`` 的 shape 满足 broadcast 规
 
 #: megengine.functional.elemwise.div of
 msgid "返回类型"
-msgstr "返回类型"
+msgstr ""
 
 #: megengine.functional.elemwise.div:8 of
 msgid ":py:class:`~megengine.tensor.Tensor`"
-msgstr ":py:class:`~megengine.tensor.Tensor`"
+msgstr ""
 
 #: megengine.functional.elemwise.div of
 msgid "返回"
-msgstr "返回"
+msgstr ""
 
 #: megengine.functional.elemwise.div:9 of
 msgid "A tensor containing the element-wise results. The returned tensor must have a data type determined by :ref:`dtype-promotion`."
@@ -160,7 +160,7 @@ msgstr "在 Python 中，``//`` 是整除运算符，见 :func:`~.functional.flo
 
 #: megengine.functional.elemwise.div:48 of
 msgid "实际案例"
-msgstr "实际案例"
+msgstr ""
 
 #~ msgid "Element-wise `(x / y)`."
 #~ msgstr "逐元素相除。"
