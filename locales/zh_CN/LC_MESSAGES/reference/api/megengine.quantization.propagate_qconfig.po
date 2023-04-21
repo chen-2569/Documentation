@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test-old-megengine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-15 19:44+0800\n"
-"PO-Revision-Date: 2022-05-09 07:32\n"
+"PO-Revision-Date: 2023-04-21 07:29\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.4.0\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.quantization.propagate_qconfig.po\n"
-"X-Crowdin-File-ID: 2628\n"
+"X-Crowdin-File: /release.v1.11/locales/zh_CN/LC_MESSAGES/reference/api/megengine.quantization.propagate_qconfig.po\n"
+"X-Crowdin-File-ID: 7839\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"X-Crowdin-Project: csx-test-old-megengine\n"
+"X-Crowdin-Project-ID: 579989\n"
 
 #: ../../source/reference/api/megengine.quantization.propagate_qconfig.rst:2
 msgid "megengine.quantization.propagate\\_qconfig"
-msgstr "megengine.quantization.propagate\\_qconfig"
+msgstr ""
 
 #: megengine.quantization.quantize.propagate_qconfig:1 of
 msgid "Recursively set ``module``'s qconfig through :meth:`~.Module.apply`."
@@ -28,7 +28,7 @@ msgstr "使用 :meth:`~.Module.apply` 递归地设置 ``module`` 的qconfig。"
 
 #: megengine.quantization.quantize.propagate_qconfig of
 msgid "参数"
-msgstr "参数"
+msgstr ""
 
 #: megengine.quantization.quantize.propagate_qconfig:4 of
 msgid "root module to traverse recursively."

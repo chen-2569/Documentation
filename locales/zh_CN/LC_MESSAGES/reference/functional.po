@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test-old-megengine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-01 21:02+0800\n"
-"PO-Revision-Date: 2022-09-26 10:03\n"
+"PO-Revision-Date: 2023-04-21 07:30\n"
 "Last-Translator: \n"
 "Language: zh_CN\n"
 "Language-Team: Chinese Simplified\n"
@@ -12,35 +12,35 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"X-Crowdin-Project: csx-test-old-megengine\n"
+"X-Crowdin-Project-ID: 579989\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/functional.po\n"
-"X-Crowdin-File-ID: 2788\n"
+"X-Crowdin-File: /release.v1.11/locales/zh_CN/LC_MESSAGES/reference/functional.po\n"
+"X-Crowdin-File-ID: 7925\n"
 
 #: ../../source/reference/functional.rst:6
 msgid "megengine.functional"
-msgstr "megengine.functional"
+msgstr ""
 
 #: ../../source/reference/functional.rst:14
 msgid "顾名思义，:mod:`megengine.functional` 模块中包含着所有与 Tensor 有关的计算接口："
-msgstr "顾名思义，:mod:`megengine.functional` 模块中包含着所有与 Tensor 有关的计算接口："
+msgstr ""
 
 #: ../../source/reference/functional.rst:16
 msgid "与神经网络（Neural Network）相关的算子统一封装在 :mod:`megengine.functional.nn` 中；"
-msgstr "与神经网络（Neural Network）相关的算子统一封装在 :mod:`megengine.functional.nn` 中；"
+msgstr ""
 
 #: ../../source/reference/functional.rst:17
 msgid "分布式算子统一封装在 :mod:`megengine.functional.distributed` 中，方便调用；"
-msgstr "分布式算子统一封装在 :mod:`megengine.functional.distributed` 中，方便调用；"
+msgstr ""
 
 #: ../../source/reference/functional.rst:18
 msgid "其它的常见算子均可在 :mod:`megengine.functional` 中直接调用；"
-msgstr "其它的常见算子均可在 :mod:`megengine.functional` 中直接调用；"
+msgstr ""
 
 #: ../../source/reference/functional.rst:22
 msgid "用户指南中对于 :ref:`functional-guide` 有另外一套分类逻辑，可作为参考。"
-msgstr "用户指南中对于 :ref:`functional-guide` 有另外一套分类逻辑，可作为参考。"
+msgstr ""
 
 #: ../../source/reference/functional.rst:27
 msgid "General tensor operations"
@@ -48,19 +48,19 @@ msgstr "全局tensor操作"
 
 #: ../../source/reference/functional.rst:31
 msgid "该部分的 API 设计接纳了 `Python 数据 API 标准联盟 <https://data-apis.org/>`_ 中的倡导, 尽可能地向 NumPy API 靠拢。"
-msgstr "该部分的 API 设计接纳了 `Python 数据 API 标准联盟 <https://data-apis.org/>`_ 中的倡导, 尽可能地向 NumPy API 靠拢。"
+msgstr ""
 
 #: ../../source/reference/functional.rst:37
 msgid "Creation Functions"
-msgstr "Creation Functions"
+msgstr "创建功能"
 
 #: ../../source/reference/functional.rst:40
 msgid ":ref:`tensor-creation`"
-msgstr ":ref:`tensor-creation`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:55:<autosummary>:1
 msgid ":py:obj:`arange <megengine.functional.arange>`"
-msgstr ":py:obj:`arange <megengine.functional.arange>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:55:<autosummary>:1
 msgid "Returns evenly spaced values within the half-open interval ``[start, stop)`` as a one-dimensional tensor."
@@ -68,7 +68,7 @@ msgstr "返回半开区间 [start, stop) 内均匀间隔的值组成的1维Tenso
 
 #: ../../source/reference/functional.rst:55:<autosummary>:1
 msgid ":py:obj:`linspace <megengine.functional.linspace>`"
-msgstr ":py:obj:`linspace <megengine.functional.linspace>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:55:<autosummary>:1
 msgid "Returns equally spaced numbers over a specified interval."
@@ -76,7 +76,7 @@ msgstr "返回指定间隔的等距数列。"
 
 #: ../../source/reference/functional.rst:55:<autosummary>:1
 msgid ":py:obj:`eye <megengine.functional.eye>`"
-msgstr ":py:obj:`eye <megengine.functional.eye>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:55:<autosummary>:1
 msgid "Returns a 2D tensor with ones on the diagonal and zeros elsewhere."
@@ -84,7 +84,7 @@ msgstr "返回一个二维张量，其对角线上值均为1，其他位置值�
 
 #: ../../source/reference/functional.rst:55:<autosummary>:1
 msgid ":py:obj:`zeros <megengine.functional.zeros>`"
-msgstr ":py:obj:`zeros <megengine.functional.zeros>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:55:<autosummary>:1
 msgid "Returns a new tensor having a specified shape and filled with zeros."
@@ -92,7 +92,7 @@ msgstr "返回一个特定形状的元素全为 0 的张量。"
 
 #: ../../source/reference/functional.rst:55:<autosummary>:1
 msgid ":py:obj:`zeros_like <megengine.functional.zeros_like>`"
-msgstr ":py:obj:`zeros_like <megengine.functional.zeros_like>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:55:<autosummary>:1
 msgid "Returns a tensor filled with zeros with the same shape and data type as input tensor."
@@ -100,7 +100,7 @@ msgstr "返回一个跟输入tensor拥有相同shape和dtype的全零tensor。"
 
 #: ../../source/reference/functional.rst:55:<autosummary>:1
 msgid ":py:obj:`ones <megengine.functional.ones>`"
-msgstr ":py:obj:`ones <megengine.functional.ones>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:55:<autosummary>:1
 msgid "Returns a new tensor having a specified shape and filled with ones."
@@ -108,7 +108,7 @@ msgstr "返回一个新创建的拥有指定shape且被1填充的tensor。"
 
 #: ../../source/reference/functional.rst:55:<autosummary>:1
 msgid ":py:obj:`ones_like <megengine.functional.ones_like>`"
-msgstr ":py:obj:`ones_like <megengine.functional.ones_like>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:55:<autosummary>:1
 msgid "Returns a tensor filled with ones with the same shape and data type as input tensor."
@@ -116,7 +116,7 @@ msgstr "使用输入 Tensor 来填充输出 Tensor，保持相同的形状和数
 
 #: ../../source/reference/functional.rst:55:<autosummary>:1
 msgid ":py:obj:`full <megengine.functional.full>`"
-msgstr ":py:obj:`full <megengine.functional.full>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:55:<autosummary>:1
 msgid "Creates a tensor of shape ``shape`` filled with ``value``."
@@ -124,7 +124,7 @@ msgstr "返回一个形状为shape类型为type元素值为value的张量"
 
 #: ../../source/reference/functional.rst:55:<autosummary>:1
 msgid ":py:obj:`full_like <megengine.functional.full_like>`"
-msgstr ":py:obj:`full_like <megengine.functional.full_like>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:55:<autosummary>:1
 msgid "Returns a tensor filled with given value with the same shape as input tensor."
@@ -132,15 +132,15 @@ msgstr "返回一个与输入张量形状相同的且值为给定值的零张量
 
 #: ../../source/reference/functional.rst:59
 msgid "Manipulation Functions"
-msgstr "Manipulation Functions"
+msgstr "操作功能"
 
 #: ../../source/reference/functional.rst:62
 msgid ":ref:`tensor-manipulation`"
-msgstr ":ref:`tensor-manipulation`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid ":py:obj:`copy <megengine.functional.copy>`"
-msgstr ":py:obj:`copy <megengine.functional.copy>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid "Copies tensor to another device."
@@ -148,7 +148,7 @@ msgstr "把张量复制到另一个设备上。"
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid ":py:obj:`reshape <megengine.functional.reshape>`"
-msgstr ":py:obj:`reshape <megengine.functional.reshape>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid "Reshapes a tensor without changing its data."
@@ -156,7 +156,7 @@ msgstr "在不改变数据的情况下更改 Tensor 的形状。"
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid ":py:obj:`flatten <megengine.functional.flatten>`"
-msgstr ":py:obj:`flatten <megengine.functional.flatten>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid "Reshapes the tensor by flattening the sub-tensor from dimension ``start_axis`` to dimension ``end_axis``."
@@ -164,7 +164,7 @@ msgstr "通过将子张量从 ``start_axis`` 维展平到 ``end_axis`` 维，实
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid ":py:obj:`transpose <megengine.functional.transpose>`"
-msgstr ":py:obj:`transpose <megengine.functional.transpose>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid "Swaps shapes and strides according to given pattern."
@@ -180,7 +180,7 @@ msgstr "交换一个 tensor 的两个坐标轴。"
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid ":py:obj:`broadcast_to <megengine.functional.broadcast_to>`"
-msgstr ":py:obj:`broadcast_to <megengine.functional.broadcast_to>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid "Broadcasts a tensor to given shape."
@@ -188,7 +188,7 @@ msgstr "将张量广播至指定的形状。"
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid ":py:obj:`expand_dims <megengine.functional.expand_dims>`"
-msgstr ":py:obj:`expand_dims <megengine.functional.expand_dims>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid "Adds dimension before given axis."
@@ -196,7 +196,7 @@ msgstr "在给定轴之前添加维度。"
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid ":py:obj:`squeeze <megengine.functional.squeeze>`"
-msgstr ":py:obj:`squeeze <megengine.functional.squeeze>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid "Removes dimension of shape 1."
@@ -204,7 +204,7 @@ msgstr "移除形状中下标为1的维度。"
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid ":py:obj:`concat <megengine.functional.concat>`"
-msgstr ":py:obj:`concat <megengine.functional.concat>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid "Concat some tensors"
@@ -212,7 +212,7 @@ msgstr "拼接一些张量"
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid ":py:obj:`stack <megengine.functional.stack>`"
-msgstr ":py:obj:`stack <megengine.functional.stack>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid "Concats a sequence of tensors along a new axis."
@@ -220,7 +220,7 @@ msgstr "沿新轴对张量进行拼接。"
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid ":py:obj:`split <megengine.functional.split>`"
-msgstr ":py:obj:`split <megengine.functional.split>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid "Splits the input tensor into several smaller tensors."
@@ -228,7 +228,7 @@ msgstr "将输入张量拆分成更小的张量。"
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid ":py:obj:`tile <megengine.functional.tile>`"
-msgstr ":py:obj:`tile <megengine.functional.tile>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid "Construct an array by repeating ``inp`` the number of times given by ``reps``."
@@ -236,7 +236,7 @@ msgstr "通过重复 ``inp`` 数据 ``reps`` 次来构造一个数组。"
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid ":py:obj:`repeat <megengine.functional.repeat>`"
-msgstr ":py:obj:`repeat <megengine.functional.repeat>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid "Repeat elements of an array."
@@ -244,7 +244,7 @@ msgstr "重复数组的元素。"
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid ":py:obj:`roll <megengine.functional.roll>`"
-msgstr ":py:obj:`roll <megengine.functional.roll>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:82:<autosummary>:1
 msgid "Roll the tensor along the given axis(or axes)."
@@ -252,11 +252,11 @@ msgstr "沿给定轴axis循环滚动张量"
 
 #: ../../source/reference/functional.rst:86
 msgid "Arithmetic operations"
-msgstr "Arithmetic operations"
+msgstr ""
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid ":py:obj:`add <megengine.functional.add>`"
-msgstr ":py:obj:`add <megengine.functional.add>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid "Calculates the sum for each element :math:`x_i` of the input tensor :math:`x` with the respective element :math:`y_i` of the input tensor :math:`y`."
@@ -264,7 +264,7 @@ msgstr "计算输入 :math:`x` 与输入 :math:`y` 的逐元素和。"
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid ":py:obj:`sub <megengine.functional.sub>`"
-msgstr ":py:obj:`sub <megengine.functional.sub>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid "Calculates the difference for each element :math:`x_i` of the input tensor :math:`x` with the respective element :math:`y` of the input tensor :math:`y`."
@@ -272,7 +272,7 @@ msgstr ""
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid ":py:obj:`mul <megengine.functional.mul>`"
-msgstr ":py:obj:`mul <megengine.functional.mul>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid "Calculates the product for each element :math:`x_i` of the input tensor `x` with the respective element :math:`y_i` of the input tensor :math:`y`."
@@ -280,7 +280,7 @@ msgstr "计算输入张量 `x` 的每个元素 :math:`x_i` 与输入张量 :math
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid ":py:obj:`div <megengine.functional.div>`"
-msgstr ":py:obj:`div <megengine.functional.div>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid "Calculates the division for each element :math:`x_i` of the input tensor :math:`x` with the respective element :math:`y_i` of the input tensor :math:`y`."
@@ -288,7 +288,7 @@ msgstr "计算输入 :math:`x` 与输入 :math:`y` 的逐元素除。"
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid ":py:obj:`floor_div <megengine.functional.floor_div>`"
-msgstr ":py:obj:`floor_div <megengine.functional.floor_div>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid "Rounds the result of dividing each element :math:`x_i` of the input tensor :math:`x` by the respective element :math:`y_i` of the input tensor :math:`y` to the greatest (i.e., closest to ``+infinity``) integer-value number that is not greater than the division result."
@@ -296,7 +296,7 @@ msgstr "将输入张量 :math:`x` 的每个元素 :math:`x_i` 除以输入张量
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid ":py:obj:`neg <megengine.functional.neg>`"
-msgstr ":py:obj:`neg <megengine.functional.neg>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid "Computes the numerical negative of each element :math:`x_i` (i.e., :math:`y_i = -x_i` ) of the input tensor :math:`x`."
@@ -304,7 +304,7 @@ msgstr "计算输入张量 :math:`x` 的每个元素 :math:`x_i` 的负数 (即 
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid ":py:obj:`abs <megengine.functional.abs>`"
-msgstr ":py:obj:`abs <megengine.functional.abs>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid "Element-wise `absolute value`."
@@ -312,7 +312,7 @@ msgstr "逐元素取绝对值。"
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid ":py:obj:`sign <megengine.functional.sign>`"
-msgstr ":py:obj:`sign <megengine.functional.sign>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid "Returns a new tensor representing the sign of each element in input tensor."
@@ -320,7 +320,7 @@ msgstr "返回一个新的张量，该张量表明每个元素的符号。"
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid ":py:obj:`pow <megengine.functional.pow>`"
-msgstr ":py:obj:`pow <megengine.functional.pow>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid "Calculates an implementation-dependent approximation of exponentiation by raising each element :math:`x_i` (the base) of the input tensor :math:`x` to the power of :math:`y_i` (the exponent), where :math:`y_i` is the corresponding element of the input tensor :math:`y`."
@@ -328,7 +328,7 @@ msgstr "一种特定实现的近似取幂运算，将张量 :math:`x` 中的每�
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid ":py:obj:`mod <megengine.functional.mod>`"
-msgstr ":py:obj:`mod <megengine.functional.mod>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid "Returns the remainder of division for each element ``x_i`` of the input tensor ``x`` and the respective element ``y_i`` of the input tensor ``y``."
@@ -336,7 +336,7 @@ msgstr "返回输入张量 ``x`` 的每个元素 ``x_i`` 和输入张量 ``y`` �
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid ":py:obj:`sqrt <megengine.functional.sqrt>`"
-msgstr ":py:obj:`sqrt <megengine.functional.sqrt>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid "Element-wise `sqrt`."
@@ -344,7 +344,7 @@ msgstr "逐元素取平方根。"
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid ":py:obj:`square <megengine.functional.square>`"
-msgstr ":py:obj:`square <megengine.functional.square>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid "Element-wise `square`."
@@ -352,7 +352,7 @@ msgstr "逐元素取平方。"
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid ":py:obj:`maximum <megengine.functional.maximum>`"
-msgstr ":py:obj:`maximum <megengine.functional.maximum>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid "Element-wise `maximum of array elements`."
@@ -360,7 +360,7 @@ msgstr "逐元素的最大数组元素。"
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid ":py:obj:`minimum <megengine.functional.minimum>`"
-msgstr ":py:obj:`minimum <megengine.functional.minimum>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid "Element-wise `minimum of array elements`."
@@ -368,7 +368,7 @@ msgstr "逐元素的最小数组元素。"
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid ":py:obj:`round <megengine.functional.round>`"
-msgstr ":py:obj:`round <megengine.functional.round>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid "Element-wise `rounding to int`."
@@ -376,7 +376,7 @@ msgstr "逐元素四舍五入到整数。"
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid ":py:obj:`ceil <megengine.functional.ceil>`"
-msgstr ":py:obj:`ceil <megengine.functional.ceil>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid "Element-wise `ceiling`."
@@ -384,7 +384,7 @@ msgstr "逐元素上取整。"
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid ":py:obj:`floor <megengine.functional.floor>`"
-msgstr ":py:obj:`floor <megengine.functional.floor>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:114:<autosummary>:1
 msgid "Element-wise `floor`."
@@ -764,7 +764,7 @@ msgstr "计算一批矩阵的逆；输入必须满足 [...，n，n] 的形状。
 
 #: ../../source/reference/functional.rst:214:<autosummary>:1
 msgid ":py:obj:`matmul <megengine.functional.matmul>`"
-msgstr ":py:obj:`matmul <megengine.functional.matmul>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:214:<autosummary>:1
 msgid "Performs a matrix multiplication of the matrices ``inp1`` and ``inp2``."
@@ -772,7 +772,7 @@ msgstr "对矩阵 ``inp1`` 和 ``inp2`` 进行矩阵乘法。"
 
 #: ../../source/reference/functional.rst:214:<autosummary>:1
 msgid ":py:obj:`diag <megengine.functional.diag>`"
-msgstr ":py:obj:`diag <megengine.functional.diag>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:214:<autosummary>:1
 msgid "If ``inp`` is a 1D tensor, then returns a 2D tensor with the elements of ``inp`` as the diagonal."
@@ -780,7 +780,7 @@ msgstr "如果 ``inp`` 是一维tensor，返回值是一个以 ``inp`` 为对角
 
 #: ../../source/reference/functional.rst:214:<autosummary>:1
 msgid ":py:obj:`svd <megengine.functional.svd>`"
-msgstr ":py:obj:`svd <megengine.functional.svd>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:214:<autosummary>:1
 msgid "Computes the singular value decomposition of a matrix (or a stack of matrices) ``inp``."
@@ -788,7 +788,7 @@ msgstr "计算矩阵(或一组矩阵) ``inp`` 的奇异值分解。"
 
 #: ../../source/reference/functional.rst:214:<autosummary>:1
 msgid ":py:obj:`norm <megengine.functional.norm>`"
-msgstr ":py:obj:`norm <megengine.functional.norm>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:214:<autosummary>:1
 msgid "Calculates ``p``-norm of input tensor along given axis."
@@ -796,7 +796,7 @@ msgstr "计算在给定轴 ``axis`` 上 ``inp`` 张量每一行的 ``p``-范数�
 
 #: ../../source/reference/functional.rst:214:<autosummary>:1
 msgid ":py:obj:`normalize <megengine.functional.normalize>`"
-msgstr ":py:obj:`normalize <megengine.functional.normalize>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:214:<autosummary>:1
 msgid "Performs :math:`L_p` normalization of input tensor along given axis."
@@ -804,11 +804,11 @@ msgstr "返回在给定轴 ``axis`` 上 ``inp`` 张量每一行进行 :math:`L_p
 
 #: ../../source/reference/functional.rst:218
 msgid "Indexing Functions"
-msgstr "Indexing Functions"
+msgstr ""
 
 #: ../../source/reference/functional.rst:227:<autosummary>:1
 msgid ":py:obj:`gather <megengine.functional.gather>`"
-msgstr ":py:obj:`gather <megengine.functional.gather>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:227:<autosummary>:1
 msgid "Gathers data from input tensor on axis using index."
@@ -816,7 +816,7 @@ msgstr "使用 ``index`` 从 ``axis`` 上的 ``inp`` 聚合数据。"
 
 #: ../../source/reference/functional.rst:227:<autosummary>:1
 msgid ":py:obj:`scatter <megengine.functional.scatter>`"
-msgstr ":py:obj:`scatter <megengine.functional.scatter>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:227:<autosummary>:1
 msgid "Writes all values from the tensor source into input tensor at the indices specified in the index tensor."
@@ -824,7 +824,7 @@ msgstr "把 ``source`` 张量中所有的值通过 ``index`` 张量指定的索�
 
 #: ../../source/reference/functional.rst:227:<autosummary>:1
 msgid ":py:obj:`cond_take <megengine.functional.cond_take>`"
-msgstr ":py:obj:`cond_take <megengine.functional.cond_take>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:227:<autosummary>:1
 msgid "Takes elements from data if specific condition is satisfied on mask."
@@ -832,7 +832,7 @@ msgstr "如果在满足特定条件，则从数据中获取元素。"
 
 #: ../../source/reference/functional.rst:227:<autosummary>:1
 msgid ":py:obj:`where <megengine.functional.where>`"
-msgstr ":py:obj:`where <megengine.functional.where>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:227:<autosummary>:1
 msgid "Selects elements either from Tensor x or Tensor y, according to mask."
@@ -840,11 +840,11 @@ msgstr "根据 mask 条件选择张量 ``x`` 或 ``y`` 作为对应的输出。"
 
 #: ../../source/reference/functional.rst:231
 msgid "Searching Functions"
-msgstr "Searching Functions"
+msgstr ""
 
 #: ../../source/reference/functional.rst:238:<autosummary>:1
 msgid ":py:obj:`argmin <megengine.functional.argmin>`"
-msgstr ":py:obj:`argmin <megengine.functional.argmin>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:238:<autosummary>:1
 msgid "Returns the indices of the minimum values along given axis."
@@ -852,7 +852,7 @@ msgstr "返回沿给定轴的最小值的索引。"
 
 #: ../../source/reference/functional.rst:238:<autosummary>:1
 msgid ":py:obj:`argmax <megengine.functional.argmax>`"
-msgstr ":py:obj:`argmax <megengine.functional.argmax>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:238:<autosummary>:1
 msgid "Returns the indices of the maximum values along given axis."
@@ -860,11 +860,11 @@ msgstr "返回沿给定轴的最大值的索引。"
 
 #: ../../source/reference/functional.rst:242
 msgid "Sorting Functions"
-msgstr "Sorting Functions"
+msgstr ""
 
 #: ../../source/reference/functional.rst:250:<autosummary>:1
 msgid ":py:obj:`sort <megengine.functional.sort>`"
-msgstr ":py:obj:`sort <megengine.functional.sort>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:250:<autosummary>:1
 msgid "Returns sorted tensor and the indices would sort the input tensor."
@@ -872,7 +872,7 @@ msgstr "返回经过排序后的张量。"
 
 #: ../../source/reference/functional.rst:250:<autosummary>:1
 msgid ":py:obj:`argsort <megengine.functional.argsort>`"
-msgstr ":py:obj:`argsort <megengine.functional.argsort>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:250:<autosummary>:1
 msgid "Returns the indices that would sort the input tensor."
@@ -880,7 +880,7 @@ msgstr "返回经过排序后的张量。"
 
 #: ../../source/reference/functional.rst:250:<autosummary>:1
 msgid ":py:obj:`topk <megengine.functional.topk>`"
-msgstr ":py:obj:`topk <megengine.functional.topk>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:250:<autosummary>:1
 msgid "Selects the ``Top-K`` (by default) smallest elements of 2d matrix by row."
@@ -1072,7 +1072,7 @@ msgstr ""
 
 #: ../../source/reference/functional.rst:323:<autosummary>:1
 msgid "Element-wise PReLU function."
-msgstr "Element-wise PReLU function."
+msgstr ""
 
 #: ../../source/reference/functional.rst:323:<autosummary>:1
 msgid ":py:obj:`leaky_relu <megengine.functional.nn.leaky_relu>`"
@@ -1264,7 +1264,7 @@ msgstr "计算 multi-class cross entropy loss（默认使用 logits）。"
 
 #: ../../source/reference/functional.rst:383:<autosummary>:1
 msgid ":py:obj:`ctc_loss <megengine.functional.nn.ctc_loss>`"
-msgstr ":py:obj:`ctc_loss <megengine.functional.nn.ctc_loss>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:383:<autosummary>:1
 msgid "The Connectionist Temporal Classification loss."
@@ -1276,7 +1276,7 @@ msgstr "视觉运算"
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid ":py:obj:`cvt_color <megengine.functional.nn.cvt_color>`"
-msgstr ":py:obj:`cvt_color <megengine.functional.nn.cvt_color>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid "Convert images from one format to another"
@@ -1284,7 +1284,7 @@ msgstr "将图像从一种格式转化成另一种格式。"
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid ":py:obj:`pad <megengine.functional.nn.pad>`"
-msgstr ":py:obj:`pad <megengine.functional.nn.pad>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid "Pads the input tensor."
@@ -1292,7 +1292,7 @@ msgstr "填充输入张量。"
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid ":py:obj:`pixel_shuffle <megengine.functional.nn.pixel_shuffle>`"
-msgstr ":py:obj:`pixel_shuffle <megengine.functional.nn.pixel_shuffle>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid "Rearranges elements in a tensor of shape `(..., C * r^2, H, W)` to a tensor of shape `(..., C, H * r, W * r)`, where `r` is an upscale factor, where `...` is zero or more batch dimensions."
@@ -1300,7 +1300,7 @@ msgstr "将形状为 `(..., C * r^2, H, W)` 的张量的元素重排为一个形
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid ":py:obj:`interpolate <megengine.functional.nn.interpolate>`"
-msgstr ":py:obj:`interpolate <megengine.functional.nn.interpolate>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid "Down/up samples the input tensor to either the given size or with the given scale_factor."
@@ -1308,7 +1308,7 @@ msgstr "根据给定的大小或缩放因子将输入张量进行上/下采样�
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid ":py:obj:`remap <megengine.functional.nn.remap>`"
-msgstr ":py:obj:`remap <megengine.functional.nn.remap>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid "Applies remap transformation to batched 2D images."
@@ -1316,7 +1316,7 @@ msgstr "对按批组织的二维图像进行重映射变换。"
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid ":py:obj:`warp_affine <megengine.functional.nn.warp_affine>`"
-msgstr ":py:obj:`warp_affine <megengine.functional.nn.warp_affine>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid "Batched affine transformation on 2D images."
@@ -1324,7 +1324,7 @@ msgstr ""
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid ":py:obj:`warp_perspective <megengine.functional.nn.warp_perspective>`"
-msgstr ":py:obj:`warp_perspective <megengine.functional.nn.warp_perspective>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid "Applies perspective transformation to batched 2D images."
@@ -1332,7 +1332,7 @@ msgstr "对按批组织的二维图像进行透视变换。"
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid ":py:obj:`roi_pooling <megengine.functional.nn.roi_pooling>`"
-msgstr ":py:obj:`roi_pooling <megengine.functional.nn.roi_pooling>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid "Applies RoI (Region of Interest) pooling on input feature, as described in Faster RCNN."
@@ -1340,7 +1340,7 @@ msgstr "在指定输入的感兴趣区域上执行池化，并获得固定大小
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid ":py:obj:`roi_align <megengine.functional.nn.roi_align>`"
-msgstr ":py:obj:`roi_align <megengine.functional.nn.roi_align>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid "Applies RoI (Region of Interest) align on input feature, as described in Mask R-CNN."
@@ -1348,7 +1348,7 @@ msgstr "RoI Align 是在指定输入的感兴趣区域上获得特征图，如 M
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid ":py:obj:`nms <megengine.functional.nn.nms>`"
-msgstr ":py:obj:`nms <megengine.functional.nn.nms>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid "Performs non-maximum suppression (NMS) on the boxes according to their intersection-over-union(IoU)."
@@ -1356,7 +1356,7 @@ msgstr "根据小方框的 IoU 值进行 非最大值抑制（NMS）。"
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid ":py:obj:`correlation <megengine.functional.nn.correlation>`"
-msgstr ":py:obj:`correlation <megengine.functional.nn.correlation>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid "Applies correlation to inputs."
@@ -1364,7 +1364,7 @@ msgstr "对输入进行相关性计算。"
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid ":py:obj:`nvof <megengine.functional.nn.nvof>`"
-msgstr ":py:obj:`nvof <megengine.functional.nn.nvof>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:404:<autosummary>:1
 msgid "Implements NVIDIA Optical Flow SDK."
@@ -1400,7 +1400,7 @@ msgstr ""
 
 #: ../../source/reference/functional.rst:419:<autosummary>:1
 msgid ":py:class:`~megengine.tensor.Tensor`"
-msgstr ":py:class:`~megengine.tensor.Tensor`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:426
 msgid "Distributed functions"
@@ -1408,7 +1408,7 @@ msgstr "分布式算子"
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid ":py:obj:`all_gather <megengine.functional.distributed.all_gather>`"
-msgstr ":py:obj:`all_gather <megengine.functional.distributed.all_gather>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid "Gather tensors across the specified group and concat them at first dimension."
@@ -1416,7 +1416,7 @@ msgstr "在指定的组中收集张量，并沿第一维对其进行拼接。"
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid ":py:obj:`all_reduce_max <megengine.functional.distributed.all_reduce_max>`"
-msgstr ":py:obj:`all_reduce_max <megengine.functional.distributed.all_reduce_max>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid "Reduce tensors with max operation on each value across the specified group."
@@ -1424,7 +1424,7 @@ msgstr "在指定组中以 max 操作来对张量进行规约操作。"
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid ":py:obj:`all_reduce_min <megengine.functional.distributed.all_reduce_min>`"
-msgstr ":py:obj:`all_reduce_min <megengine.functional.distributed.all_reduce_min>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid "Reduce tensors with min operation on each value across the specified group."
@@ -1432,7 +1432,7 @@ msgstr "在指定组中以 min 操作来对张量进行规约操作。"
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid ":py:obj:`all_reduce_sum <megengine.functional.distributed.all_reduce_sum>`"
-msgstr ":py:obj:`all_reduce_sum <megengine.functional.distributed.all_reduce_sum>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid "Reduce tensors with sum operation on each value across the specified group."
@@ -1440,7 +1440,7 @@ msgstr "在指定组中以求和操作来对张量进行规约操作。"
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid ":py:obj:`all_to_all <megengine.functional.distributed.all_to_all>`"
-msgstr ":py:obj:`all_to_all <megengine.functional.distributed.all_to_all>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid "Each process scatter input tensor to all processes and return gathered tensor."
@@ -1448,7 +1448,7 @@ msgstr "每个进程将输入张量分散到所有进程，并返回收集的张
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid ":py:obj:`broadcast <megengine.functional.distributed.broadcast>`"
-msgstr ":py:obj:`broadcast <megengine.functional.distributed.broadcast>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid "Broadcast tensor data from root process to others."
@@ -1456,7 +1456,7 @@ msgstr "从根进程向其他进程广播张量数据。"
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid ":py:obj:`reduce_scatter_sum <megengine.functional.distributed.reduce_scatter_sum>`"
-msgstr ":py:obj:`reduce_scatter_sum <megengine.functional.distributed.reduce_scatter_sum>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid "Reduce tensors across the specified group by sum and split them at first dimension."
@@ -1472,7 +1472,7 @@ msgstr "用于集合通信的辅助函数。"
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid ":py:obj:`remote_send <megengine.functional.distributed.remote_send>`"
-msgstr ":py:obj:`remote_send <megengine.functional.distributed.remote_send>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid "Send tensor to another process."
@@ -1480,7 +1480,7 @@ msgstr "发送张量到另一个进程。"
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid ":py:obj:`remote_recv <megengine.functional.distributed.remote_recv>`"
-msgstr ":py:obj:`remote_recv <megengine.functional.distributed.remote_recv>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid "Receive a tensor from another process."
@@ -1488,7 +1488,7 @@ msgstr "从另一个进程接收张量。"
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid ":py:obj:`reduce_sum <megengine.functional.distributed.reduce_sum>`"
-msgstr ":py:obj:`reduce_sum <megengine.functional.distributed.reduce_sum>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid "Reduce tensor data across the specified group by sum."
@@ -1496,7 +1496,7 @@ msgstr "在指定组中以 sum操作来对张量进行规约操作。"
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid ":py:obj:`gather <megengine.functional.distributed.gather>`"
-msgstr ":py:obj:`gather <megengine.functional.distributed.gather>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid "Gather tensors across the specified group."
@@ -1504,7 +1504,7 @@ msgstr "在指定的组中收集张量。"
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid ":py:obj:`scatter <megengine.functional.distributed.scatter>`"
-msgstr ":py:obj:`scatter <megengine.functional.distributed.scatter>`"
+msgstr ""
 
 #: ../../source/reference/functional.rst:444:<autosummary>:1
 msgid "Split tensor in root process at first dimension."

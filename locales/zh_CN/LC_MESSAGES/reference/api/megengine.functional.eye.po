@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test-old-megengine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-26 13:50+0800\n"
-"PO-Revision-Date: 2022-09-22 06:32\n"
+"PO-Revision-Date: 2023-04-21 07:21\n"
 "Last-Translator: \n"
 "Language: zh_CN\n"
 "Language-Team: Chinese Simplified\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"X-Crowdin-Project: csx-test-old-megengine\n"
+"X-Crowdin-Project-ID: 579989\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.functional.eye.po\n"
-"X-Crowdin-File-ID: 2132\n"
+"X-Crowdin-File: /release.v1.11/locales/zh_CN/LC_MESSAGES/reference/api/megengine.functional.eye.po\n"
+"X-Crowdin-File-ID: 7257\n"
 
 #: ../../source/reference/api/megengine.functional.eye.rst:2
 msgid "megengine.functional.eye"
-msgstr "megengine.functional.eye"
+msgstr ""
 
 #: megengine.functional.tensor.eye:1 of
 msgid "Returns a 2D tensor with ones on the diagonal and zeros elsewhere."
@@ -28,7 +28,7 @@ msgstr "返回一个二维张量，其对角线上值均为1，其他位置值�
 
 #: megengine.functional.tensor.eye of
 msgid "参数"
-msgstr "参数"
+msgstr ""
 
 #: megengine.functional.tensor.eye:3 of
 msgid "an integer defining the number of rows."
@@ -48,15 +48,15 @@ msgstr "输出张量的期望设备。默认值：如果为 ``None``，使用全
 
 #: megengine.functional.tensor.eye of
 msgid "返回类型"
-msgstr "返回类型"
+msgstr ""
 
 #: megengine.functional.tensor.eye:10 of
 msgid ":py:class:`~megengine.tensor.Tensor`"
-msgstr ":py:class:`~megengine.tensor.Tensor`"
+msgstr ""
 
 #: megengine.functional.tensor.eye of
 msgid "返回"
-msgstr "返回"
+msgstr ""
 
 #: megengine.functional.tensor.eye:11 of
 msgid "eye matrix."
@@ -64,7 +64,7 @@ msgstr "单位矩阵。"
 
 #: megengine.functional.tensor.eye:14 of
 msgid "实际案例"
-msgstr "实际案例"
+msgstr ""
 
 #~ msgid ":py:class:`~megengine.tensor.Tensor`"
 #~ msgstr ":py:class:`~megengine.tensor.Tensor`"

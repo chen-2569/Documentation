@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test-old-megengine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-14 16:12+0800\n"
-"PO-Revision-Date: 2022-03-01 05:26\n"
+"PO-Revision-Date: 2023-04-21 07:30\n"
 "Last-Translator: \n"
 "Language: zh_CN\n"
 "Language-Team: Chinese Simplified\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"X-Crowdin-Project: csx-test-old-megengine\n"
+"X-Crowdin-Project-ID: 579989\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.traced_module.expr.Constant.po\n"
-"X-Crowdin-File-ID: 7895\n"
+"X-Crowdin-File: /release.v1.11/locales/zh_CN/LC_MESSAGES/reference/api/megengine.traced_module.expr.Constant.po\n"
+"X-Crowdin-File-ID: 7885\n"
 
 #: ../../source/reference/api/megengine.traced_module.expr.Constant.rst:5
 msgid "Constant"
@@ -28,7 +28,7 @@ msgstr "``Constant`` 表示非 Module属性的 ``Tensor`` 或 ``Module``."
 
 #: megengine.traced_module.expr.Constant of
 msgid "参数"
-msgstr "参数"
+msgstr ""
 
 #: megengine.traced_module.expr.Constant:3 of
 msgid "a const Tensor or Module."

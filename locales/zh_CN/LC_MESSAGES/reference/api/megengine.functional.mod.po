@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test-old-megengine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-26 13:50+0800\n"
-"PO-Revision-Date: 2022-09-14 03:28\n"
+"PO-Revision-Date: 2023-04-21 07:22\n"
 "Last-Translator: \n"
 "Language: zh_CN\n"
 "Language-Team: Chinese Simplified\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"X-Crowdin-Project: csx-test-old-megengine\n"
+"X-Crowdin-Project-ID: 579989\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.functional.mod.po\n"
-"X-Crowdin-File-ID: 2220\n"
+"X-Crowdin-File: /release.v1.11/locales/zh_CN/LC_MESSAGES/reference/api/megengine.functional.mod.po\n"
+"X-Crowdin-File-ID: 7315\n"
 
 #: ../../source/reference/api/megengine.functional.mod.rst:2
 msgid "megengine.functional.mod"
-msgstr "megengine.functional.mod"
+msgstr ""
 
 #: megengine.functional.elemwise.mod:1 of
 msgid "Returns the remainder of division for each element ``x_i`` of the input tensor ``x`` and the respective element ``y_i`` of the input tensor ``y``."
@@ -32,11 +32,11 @@ msgstr "``mod`` 是 NumPy 中 ``remainder`` 的别名。"
 
 #: megengine.functional.elemwise.mod:6 of
 msgid ":func:`~.div` / :func:`~.floor_div`"
-msgstr ":func:`~.div` / :func:`~.floor_div`"
+msgstr ""
 
 #: megengine.functional.elemwise.mod of
 msgid "参数"
-msgstr "参数"
+msgstr ""
 
 #: megengine.functional.elemwise.mod:9 of
 msgid "dividend input tensor. Should have a numeric data type."
@@ -48,15 +48,15 @@ msgstr "除数输入张量。 必须与 ``x`` 兼容 (参见 :ref:`broadcasting-
 
 #: megengine.functional.elemwise.mod of
 msgid "返回类型"
-msgstr "返回类型"
+msgstr ""
 
 #: megengine.functional.elemwise.mod:13 of
 msgid ":py:class:`~megengine.tensor.Tensor`"
-msgstr ":py:class:`~megengine.tensor.Tensor`"
+msgstr ""
 
 #: megengine.functional.elemwise.mod of
 msgid "返回"
-msgstr "返回"
+msgstr ""
 
 #: megengine.functional.elemwise.mod:14 of
 msgid "A tensor containing the element-wise results. The returned tensor must have a data type determined by :ref:`dtype-promotion`."
@@ -64,7 +64,7 @@ msgstr "包含逐元素结果的张量。 返回的张量必须具有由 :ref:`d
 
 #: megengine.functional.elemwise.mod:17 of
 msgid "实际案例"
-msgstr "实际案例"
+msgstr ""
 
 #~ msgid "Element-wise `remainder of division`."
 #~ msgstr "返回逐元素相除所得的余数。"

@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test-old-megengine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-26 13:50+0800\n"
-"PO-Revision-Date: 2022-09-25 09:54\n"
+"PO-Revision-Date: 2023-04-21 07:24\n"
 "Last-Translator: \n"
 "Language: zh_CN\n"
 "Language-Team: Chinese Simplified\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"X-Crowdin-Project: csx-test-old-megengine\n"
+"X-Crowdin-Project-ID: 579989\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.functional.sub.po\n"
-"X-Crowdin-File-ID: 2286\n"
+"X-Crowdin-File: /release.v1.11/locales/zh_CN/LC_MESSAGES/reference/api/megengine.functional.sub.po\n"
+"X-Crowdin-File-ID: 7485\n"
 
 #: ../../source/reference/api/megengine.functional.sub.rst:2
 msgid "megengine.functional.sub"
-msgstr "megengine.functional.sub"
+msgstr ""
 
 #: megengine.functional.elemwise.sub:1 of
 msgid "Calculates the difference for each element :math:`x_i` of the input tensor :math:`x` with the respective element :math:`y` of the input tensor :math:`y`. The result of :math:`x_i - y_i` must be the same as :math:`x_i + (-y_i)` and must be governed by the same floating-point rules as addition. (See :func:`~.functional.add` )."
@@ -28,7 +28,7 @@ msgstr "计算输入张量 :math:`x` 中每一个元素 :math:`x_i` 和输入张
 
 #: megengine.functional.elemwise.sub of
 msgid "参数"
-msgstr "参数"
+msgstr ""
 
 #: megengine.functional.elemwise.sub:6 of
 msgid "first input tensor. Should have a numeric data type."
@@ -40,15 +40,15 @@ msgstr "第二个输入 Tensor，其 shape 必须与 ``x`` 的 shape 满足 broa
 
 #: megengine.functional.elemwise.sub of
 msgid "返回类型"
-msgstr "返回类型"
+msgstr ""
 
 #: megengine.functional.elemwise.sub:10 of
 msgid ":py:class:`~megengine.tensor.Tensor`"
-msgstr ":py:class:`~megengine.tensor.Tensor`"
+msgstr ""
 
 #: megengine.functional.elemwise.sub of
 msgid "返回"
-msgstr "返回"
+msgstr ""
 
 #: megengine.functional.elemwise.sub:11 of
 msgid "A tensor containing the element-wise differences. The returned tensor must have a data type determined by :ref:`dtype-promotion`."
@@ -60,7 +60,7 @@ msgstr "``-`` 运算符可以作为 ``sub`` 的简写应用于 tensor 运算中�
 
 #: megengine.functional.elemwise.sub:18 of
 msgid "实际案例"
-msgstr "实际案例"
+msgstr ""
 
 #~ msgid "Element-wise `sub`."
 #~ msgstr "Element-wise `sub`."
