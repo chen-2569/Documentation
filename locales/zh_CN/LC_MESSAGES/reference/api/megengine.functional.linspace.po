@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test-old-megengine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-26 13:50+0800\n"
-"PO-Revision-Date: 2022-08-04 09:14\n"
+"PO-Revision-Date: 2023-04-21 07:22\n"
 "Last-Translator: \n"
 "Language: zh_CN\n"
 "Language-Team: Chinese Simplified\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"X-Crowdin-Project: csx-test-old-megengine\n"
+"X-Crowdin-Project-ID: 579989\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.functional.linspace.po\n"
-"X-Crowdin-File-ID: 2170\n"
+"X-Crowdin-File: /release.v1.11/locales/zh_CN/LC_MESSAGES/reference/api/megengine.functional.linspace.po\n"
+"X-Crowdin-File-ID: 7285\n"
 
 #: ../../source/reference/api/megengine.functional.linspace.rst:2
 msgid "megengine.functional.linspace"
-msgstr "megengine.functional.linspace"
+msgstr ""
 
 #: megengine.functional.tensor.linspace:1 of
 msgid "Returns equally spaced numbers over a specified interval."
@@ -28,7 +28,7 @@ msgstr "返回指定间隔的等距数列。"
 
 #: megengine.functional.tensor.linspace of
 msgid "参数"
-msgstr "参数"
+msgstr ""
 
 #: megengine.functional.tensor.linspace:4 of
 msgid "starting value of the squence, shoule be scalar."
@@ -48,15 +48,15 @@ msgstr "结果的数据类型。"
 
 #: megengine.functional.tensor.linspace of
 msgid "返回类型"
-msgstr "返回类型"
+msgstr ""
 
 #: megengine.functional.tensor.linspace:11 of
 msgid ":py:class:`~megengine.tensor.Tensor`"
-msgstr ":py:class:`~megengine.tensor.Tensor`"
+msgstr ""
 
 #: megengine.functional.tensor.linspace of
 msgid "返回"
-msgstr "返回"
+msgstr ""
 
 #: megengine.functional.tensor.linspace:12 of
 msgid "generated tensor."
@@ -64,7 +64,7 @@ msgstr "生成的张量。"
 
 #: megengine.functional.tensor.linspace:15 of
 msgid "实际案例"
-msgstr "实际案例"
+msgstr ""
 
 #~ msgid ":py:class:`~megengine.tensor.Tensor`"
 #~ msgstr ":py:class:`~megengine.tensor.Tensor`"
