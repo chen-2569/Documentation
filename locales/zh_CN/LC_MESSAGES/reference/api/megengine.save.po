@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: megengine\n"
+"Project-Id-Version: csx-test-old-megengine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-19 16:51+0800\n"
-"PO-Revision-Date: 2022-06-24 03:05\n"
+"PO-Revision-Date: 2023-04-21 07:30\n"
 "Last-Translator: \n"
 "Language: zh_CN\n"
 "Language-Team: Chinese Simplified\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Crowdin-Project: megengine\n"
-"X-Crowdin-Project-ID: 450980\n"
+"X-Crowdin-Project: csx-test-old-megengine\n"
+"X-Crowdin-Project-ID: 579989\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[MegEngine.Documentation] main/locales/zh_CN/LC_MESSAGES/reference/api/megengine.save.po\n"
-"X-Crowdin-File-ID: 2646\n"
+"X-Crowdin-File: /release.v1.11/locales/zh_CN/LC_MESSAGES/reference/api/megengine.save.po\n"
+"X-Crowdin-File-ID: 7867\n"
 
 #: ../../source/reference/api/megengine.save.rst:2
 msgid "megengine.save"
-msgstr "megengine.save"
+msgstr ""
 
 #: megengine.serialization.save:1 of
 msgid "Save an object to disk file."
@@ -28,7 +28,7 @@ msgstr "把对象保存成磁盘文件。"
 
 #: megengine.serialization.save of
 msgid "参数"
-msgstr "参数"
+msgstr ""
 
 #: megengine.serialization.save:3 of
 msgid "object to save. Only ``module`` or ``state_dict`` are allowed."
